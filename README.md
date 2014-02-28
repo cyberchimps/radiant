@@ -1,4 +1,0 @@
-slickhouse
-==========
-
-SlickHouse theme

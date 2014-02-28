@@ -1,0 +1,1154 @@
+/*
+Theme Name: SlickHouse Pro
+Theme URI: http://cyberchimps.com/slickhousepro/
+Author: CyberChimps
+Author URI: http://cyberchimps.com/
+Description: SlickHouse Pro is a fully Responsive Drag & Drop Starter Wordpress Theme that adds amazing new functionality to your Wordpress website. Featuring Twitter Bootstrap, and responsive touch friendly theme options that work on any device.
+Version: 1.0.0.0
+Tags: white, black, silver, light, two-columns, right-sidebar, fixed-width, custom-background, custom-colors, custom-menu, featured-images, post-formats, theme-options, threaded-comments, sticky-post
+License: GNU General Public License
+License URI: http://www.opensource.org/licenses/gpl-license.php GPL v3.0 (or later)
+*/
+
+/********************************************************************************************************************/
+/******************************************** MAIN HTML STYLES ******************************************************/
+/********************************************************************************************************************/
+
+@import url(http://fonts.googleapis.com/css?family=Great+Vibes);
+
+body {
+  color: #666;
+  background: url(images/branding/bg.png);
+}
+
+body, div, p {
+  font-family: georgia, 'times new roman', times, serif;
+}
+
+h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, a, a:link, a:hover, a:active, h1.entry-title, h1.entry-title a, h1.entry-title a:hover, h2.entry-title, h2.entry-title a, h2.entry-title a:hover {
+  color: #f35d3a;
+}
+
+h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  font-family: 'Great Vibes', cursive !important;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+
+h1.entry-title, h1.entry-title a, h2.entry-title, h2.entry-title a {
+  font-size: 40px;
+}
+
+h2.site-title, h2.site-title a {
+  font-size: 60px;
+  color: #fff;
+  text-decoration: none;
+}
+
+h2.box-widget-title {
+  font-size: 25px;
+}
+
+h3, h3 a {
+  font-size: 30px;
+}
+
+h4, h4 a {
+  font-size: 25px;
+}
+
+h5, h5 a {
+  font-size: 20px;
+}
+
+h6, h6 a {
+  font-size: 16px;
+}
+
+table .label {
+  padding: 7px;
+  background: none;
+  text-shadow: none;
+  line-height: normal;
+}
+
+tr {
+  border-bottom: 1px solid #f35d3a;
+}
+
+td {
+  padding: 5px;
+}
+
+dt {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 26px;
+  font-weight: bold;
+}
+
+dd {
+  margin-bottom: 15px;
+  margin-left: 26px;
+}
+
+ul, ol {
+  margin: 0 0 10px 0;
+}
+
+ol, ul {
+  margin-left: 21px;
+  list-style-position: inside;
+}
+
+pre {
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+code {
+  color: #F35D3A;
+  white-space: pre-wrap;
+}
+
+header {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.clear {
+  clear: both;
+}
+
+.clear-right {
+  clear: right;
+}
+
+.clear-left {
+  clear: left;
+}
+
+/********************************************************************************************************************/
+/******************************************** HEADER ****************************************************************/
+/********************************************************************************************************************/
+
+#header_section {
+  background: #F35D3A;
+}
+
+/*======================================= SOCIAL ==============================================*/
+
+#cc-header #social a {
+  margin-left: 5px;
+  margin-top: 12px;
+}
+
+.icons {
+  margin-top: 15px;
+}
+
+#social .icons img {
+  height: 32px;
+  width: 32px;
+}
+
+/*======================================= DETAILS =============================================*/
+
+header#cc-header h2.site-title {
+  margin-bottom: 5px;
+  font-size: 38.5px
+}
+
+header#cc-header h2.site-description {
+  margin: 0;
+  font-size: 14px;
+}
+
+header#cc-header .contact_details {
+  float: right;
+}
+
+header#cc-header .register {
+  float: right;
+}
+
+header#cc-header .blog_description {
+  float: right;
+}
+
+header#cc-header p {
+  font-size: 1.2em;
+}
+
+/*======================================= SEARCH ===============================================*/
+
+header #search #searchform {
+  float: right;
+}
+
+.navbar-search .search-query {
+  border: 0 none;
+  border-radius: 0;
+  margin: 2px 6px 2px 0;
+}
+
+/********************************************************************************************************************/
+/******************************************** MENU ******************************************************************/
+/********************************************************************************************************************/
+
+#navigation {
+  margin-top: 20px;
+}
+
+.main-navigation.navbar {
+  margin-bottom: 0;
+}
+
+.main-navigation .navbar-inner {
+  background: #f35d3a;
+  padding: 0;
+  border: 1px solid #f35d3a;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.navbar .nav > li > a {
+  font-size: 16px;
+  color: #fff;
+  text-shadow: none;
+}
+
+.main-navigation .nav li ul li ul {
+  margin-left: 0;
+  list-style: none;
+}
+
+.main-navigation .nav li ul li ul li a {
+  padding-left: 24px;
+}
+
+.main-navigation .nav li ul li ul li ul li a {
+  padding-left: 30px;
+}
+
+.main-navigation .nav li.dropdown:hover ul.dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
+.main-navigation .nav li ul li a:hover {
+  background: none;
+  color: #f35d3a;
+}
+
+.navbar .btn-navbar {
+  margin-bottom: 5px;
+}
+
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+  background-color: transparent;
+  box-shadow: none;
+  color: #333;
+  text-decoration: none;
+}
+
+.navbar-inverse .current-menu-ancestor.dropdown >a {
+  color: #ffffff;
+}
+
+.navbar .nav li.dropdown > .dropdown-toggle .caret {
+  border-bottom-color: #ffffff;
+  border-top-color: #ffffff;
+}
+
+.dropdown-menu .active > a, .dropdown-menu .active > a:hover {
+  background-image: none;
+  background-color: #f35d3a;
+}
+
+@media (max-width: 979px) {
+  .nav-collapse .nav > li > a, .nav-collapse .dropdown-menu a {
+    color: #eeeeee;
+    font-weight: normal;
+  }
+  
+  .nav-collapse .nav > li > a, .nav-collapse .dropdown-menu a:hover {
+    color: #ffffff;
+    font-weight: normal;
+  }
+  
+  .main-navigation .nav li ul li a:hover {
+    color: #ffffff;
+  }
+
+  .navbar-inverse .nav-collapse .nav > li.current-menu-item > a, .navbar-inverse .nav-collapse .nav > li.current-menu-ancestor > a {
+    color: #ffffff;
+  }
+
+  .nav-collapse .dropdown .caret {
+    display: none;
+  }
+
+  .nav-collapse .dropdown-menu {
+    display: block;
+  }
+
+  .navbar-inverse .nav-collapse .dropdown-menu .active > a {
+    background-color: #000000;
+    background-image: none;
+    color: #ffffff;
+  }
+}
+
+/********************************************************************************************************************/
+/******************************************** MAIN CONTENT **********************************************************/
+/********************************************************************************************************************/
+
+#container {
+  margin-top: 20px;
+}
+
+.container {
+  background: transparent;
+}
+
+article.post, article.page, article.attachment {
+  margin-bottom: 15px;
+  padding: 20px;
+}
+
+.entry-content {
+  margin: 20px 0;
+}
+
+.page-header {
+  margin-top: 0;
+  padding: 0;
+  border: none;
+}
+
+/*==================================== POST AND PAGE CONTENT ===========================================*/
+
+article {
+  background: #ffffff;
+}
+
+.entry-header {
+  margin-top: 0;
+}
+
+.entry-summary {
+  margin: 10px 0;
+}
+
+.postformats {
+  float: right;
+}
+
+blockquote {
+  margin: 20px 10px;
+  padding: 3px;
+  border-left: 5px solid #F35D3A;
+  background-color: #f6f6f6;
+}
+
+blockquote p {
+  margin: 10px;
+}
+
+blockquote cite {
+  font-size: 0.9em;
+}
+
+blockquote cite:before {
+  position: relative;
+  top: -2px;
+  margin: 0 5px;
+  content: ' ̶ ';
+}
+
+.page-links {
+  clear: both;
+}
+
+.more-content {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #f35d3a;
+  background: #ffffff;
+}
+
+.previous-post {
+  margin-top: 5px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  text-align: left;
+}
+
+.next-post {
+  margin-top: 5px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  text-align: right;
+}
+
+/*==================================== TAXONOMY ========================================================*/
+
+.entry-title {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: 1.6em;
+  line-height: 1em;
+}
+
+.entry-title a {
+  color: #333333;
+}
+
+.entry-title a:hover {
+  color: #0088cc;
+}
+
+article.post p, article.page p {
+  font-size: 1.1em;
+  line-height: 1.5em;
+}
+
+/*==================================== IMAGES ==========================================================*/
+
+.alignnone {
+  display: block;
+  margin: 5px 20px 20px 0;
+}
+
+.aligncenter, div.aligncenter {
+  display: block;
+  margin: 5px auto 5px auto;
+}
+
+.alignright {
+  float: right;
+  margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0;
+}
+
+.aligncenter {
+  display: block;
+  margin: 5px auto 5px auto;
+}
+
+a img.alignright {
+  float: right;
+  margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+  margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+  display: block;
+  margin-right: auto;
+  margin-left: auto
+}
+
+img.size-full {
+  max-width: 100%;
+  height: auto;
+}
+
+.wp-caption {
+  padding: 15px 3px 10px;
+  max-width: 96%;
+  border: 1px solid #f0f0f0; /* Image does not overflow the content area */
+  background: #ffffff;
+  text-align: center;
+}
+
+.wp-caption.alignnone {
+  margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+  margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+  margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+  margin: 0;
+  padding: 0;
+  max-width: 95%;
+  width: auto;
+  height: auto;
+  border: 0 none;
+}
+
+.wp-caption p.wp-caption-text {
+  margin: 0;
+  padding: 0 4px 5px;
+  font-size: 11px;
+  line-height: 17px;
+}
+
+.caption_title {
+  font-size: 16px;
+}
+
+.gallery-pagination {
+  margin: 20px 0;
+}
+
+.gallery-pagination .previous-image a {
+  float: left;
+}
+
+.gallery-pagination .next-image a {
+  float: right;
+}
+
+article .featured-image {
+  float: left;
+  margin: 0 10px 10px 0;
+}
+
+/*==================================== META ============================================================*/
+
+.entry-meta {
+  margin-top: 0;
+  color: #999999;
+  font-size: 0.85em;
+}
+
+footer.entry-meta {
+  clear: both;
+}
+
+.edit-link {
+  margin-bottom: 10px;
+}
+
+.edit-link a {
+  padding: 2px 4px;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  background: #888888;
+  color: #ffffff;
+}
+
+.edit-link a:visited {
+  color: #ffffff;
+}
+
+.edit-link a:hover {
+  color: #cccccc;
+  text-decoration: none;
+}
+
+.cyberchimps_article_share {
+  float: right;
+}
+
+/*==================================== COMMENTS ========================================================*/
+
+.comments-area {
+  margin-bottom: 15px;
+  padding: 15px;
+  background: #ffffff;
+}
+
+#comments .navigation {
+  padding: 0 0 18px 0;
+}
+
+label[for="comment"] {
+  display: block;
+}
+
+ol.commentlist {
+  list-style: none;
+}
+
+ol.commentlist p {
+  clear: left;
+  margin-left: 8px;
+}
+
+ol.commentlist li.comment {
+  padding: 10px;
+}
+
+ol.commentlist li.comment div.vcard cite.fn {
+  font-style: normal;
+}
+
+ol.commentlist li.comment div.vcard img.avatar {
+  margin: 0 10px 10px 10px;
+}
+
+ol.commentlist li.comment div.comment-meta {
+  font-size: 11px;
+}
+
+ol.commentlist li.comment div.comment-meta a {
+  color: #888888;
+}
+
+ol.commentlist li.comment div.reply {
+  margin-left: 8px;
+  font-size: 11px;
+}
+
+ol.commentlist li.comment div.reply a {
+  font-weight: bold;
+}
+
+ol.commentlist li.comment ul.children {
+  margin: 10px 0 0;
+  list-style: none;
+}
+
+ol.commentlist li.comment ul.children li.depth-2 {
+  margin: 0 0 10px 10px;
+}
+
+ol.commentlist li.comment ul.children li.depth-3 {
+  margin: 0 0 10px 10px;
+}
+
+ol.commentlist li.comment ul.children li.depth-4 {
+  margin: 0 0 10px 10px;
+}
+
+ol.commentlist li.even {
+  border: 1px solid #F35D3A;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  background: #fafafa;
+}
+
+ol.commentlist li.odd {
+  border: 1px solid #F35D3A;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  background: #ffffff;
+}
+
+.comment, .trackback, .pingback {
+  margin: 10px 0 10px 0;
+  padding: 10px;
+}
+
+.odd {
+  background: #f8f8f8;
+}
+
+#form-allowed-tags code {
+  font-size: 12px;
+}
+
+#respond input, #respond textarea {
+  overflow: auto;
+  margin: 0 5px 5px 0;
+}
+
+#respond textarea {
+  width: 99%;
+  height: 150px;
+}
+
+input[type="submit"], .button {
+  background: none repeat scroll 0 0 #F35D3A;
+  border: 0 none;
+  color: #FFFFFF;
+  font-size: 15px;
+  padding: 10px 15px;
+  width: auto;
+}
+
+.avatar {
+  float: left;
+}
+
+/********************************************************************************************************************/
+/******************************************** SIDEBAR & WIDGETS *****************************************************/
+/********************************************************************************************************************/
+
+.widget-container {
+  margin-bottom: 15px;
+  padding: 20px;
+  background: transparent;
+}
+
+h3.widget-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: normal;
+  line-height: 1em;
+}
+
+.widget-container ul, .widget ul {
+  margin-left: 5px;
+}
+
+.widget-container ul li, .widget ul li {
+  list-style: none;
+  font-size: 14px;
+  line-height: 1.8em;
+}
+
+table#wp-calendar {
+  width: 100%;
+}
+
+table#wp-calendar th {
+  font-size: 14px;
+}
+
+table#wp-calendar td {
+  padding: 5px 0;
+  width: 14.28571428571429%;
+  text-align: center;
+  font-size: 14px;
+}
+
+.widget-container #searchform.pull-right {
+  margin-right: 30px;
+}
+
+.widget-container #searchform input.input-medium {
+  display: inline-block;
+  float: none;
+  width: 100%;
+}
+
+/*==================================== SEARCH FORM ====================================================*/
+
+#searchform {
+  margin-bottom: 5px;
+}
+
+/********************************************************************************************************************/
+/******************************************** FOOTER ****************************************************************/
+/********************************************************************************************************************/
+
+#footer-widgets {
+  margin-bottom: 20px;
+}
+
+#footer-widgets .widget-container {
+  border: none;
+}
+
+#footer-widget-container {
+  background: #ffffff;
+}
+
+.site-footer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.site-footer #copyright {
+  text-align: right;
+}
+
+/*================================== FOOTER MENU ================================================= */
+
+#footer_menu {
+  padding: 20px 0 0;
+  text-align: center;
+}
+
+#footer_menu ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  list-style-image: none;
+}
+
+#footer_menu li {
+  display: inline;
+  margin-right: 5px;
+}
+
+#footer_menu li a {
+  text-decoration: none;
+}
+
+#footer_menu li a::after {
+  margin-left: 5px;
+  content: ' | ';
+}
+
+#footer_menu li a:hover::after {
+  color: #0088cc;
+}
+
+#footer_menu li:last-child a::after {
+  content: '';
+}
+
+/********************************************************************************************************************/
+/******************************************** WORDPRESS DEFAULTS ****************************************************/
+/********************************************************************************************************************/
+
+.sticky {
+}
+
+.gallery-caption {
+}
+
+.bypostauthor {
+}
+
+/********************************************************************************************************************/
+/******************************************** ELEMENTS **************************************************************/
+/********************************************************************************************************************/
+
+/*==================================== SLIDER =====================================================*/
+
+#slider .carousel-control {
+  line-height: 30px;
+}
+
+/*==================================== CALLOUT ====================================================*/
+
+#callout_container {
+  margin-bottom: 20px;
+}
+
+#callout {
+  padding: 20px;
+  background: #ffffff;
+}
+
+.callout-text h2.callout-title {
+  margin-top: 0;
+  font-size: 1.6em;
+  line-height: 1em;
+}
+
+.callout-text p {
+  font-size: 1.2em;
+}
+
+.callout-text p:last-child {
+  margin-bottom: 0;
+}
+
+#callout_button a {
+  float: right;
+  margin-top: 5px;
+}
+
+/*==================================== WIDGET BOXES ===============================================*/
+
+.box {
+  margin-bottom: 20px;
+  padding: 20px;
+  background: #ffffff;
+}
+
+h2.box-widget-title {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 1.6em;
+  line-height: 1em;
+}
+
+.box p {
+  font-size: 1.1em;
+  line-height: 1.2em;
+}
+
+/*==================================== BOXES ======================================================*/
+
+#boxes_container .box a {
+  display: block;
+  width: 100%;
+  color: #555555;
+  text-align: center;
+}
+
+#boxes_container .box-no-url {
+  cursor: default;
+}
+
+/*==================================== CAROUSEL ===================================================*/
+
+#cc-carousel {
+  padding: 20px 50px;
+  background: #ffffff;
+}
+
+#cc-carousel ul {
+  margin: 0;
+  padding: 0;
+  max-height: 150px;
+  width: 100%;
+}
+
+#cc-carousel ul li {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+#cc-carousel ul li .carousel-captions {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-caption {
+  background: #333;
+}
+
+#cc-carousel ul li .carousel-captions p {
+  margin: 0;
+  color: #ffffff;
+  text-align: center;
+  font-weight: normal;
+  font-size: 1em;
+}
+
+#cc-carousel .carousel-control {
+  top: 50%;
+  border: none;
+}
+
+#cc-carousel .carousel-control.left {
+  left: 5px;
+}
+
+#cc-carousel .carousel-control.right {
+  right: 5px;
+}
+
+@media (max-width: 767px) {
+  #cc-carousel [class*="span"], .row-fluid #cc-carousel [class*="span"] {
+    float: left;
+    margin-left: 2.762430939%;
+    width: 14.364640883%;
+  }
+
+  #cc-carousel [class*="span"]:first-child, .row-fluid #cc-carousel [class*="span"]:first-child {
+    margin-left: 0;
+  }
+}
+
+/*==================================== PORTFOLIO ===================================================*/
+
+#portfolio {
+  margin-bottom: 20px;
+}
+
+#gallery {
+  padding: 20px;
+  background: #ffffff;
+}
+
+#gallery ul.row-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+#gallery h2 {
+  margin-top: 0;
+  font-weight: 400;
+  font-size: 1.6em;
+  line-height: 1em;
+}
+
+#gallery ul.row-fluid li#portfolio_wrap {
+  text-align: center;
+}
+
+#gallery ul.row-fluid li#portfolio_wrap .portfolio-item {
+  padding: 20px;
+}
+
+/*==================================== TWITTER =====================================================*/
+
+#twitter_container {
+  margin-bottom: 20px;
+}
+
+#twitter_bar {
+  background: #ffffff;
+}
+
+#twitter_bar #twitter_text li {
+  float: left;
+  clear: left;
+  width: 100%;
+}
+
+#twitter_bar #twitter_text .twitter-img {
+  display: inline;
+  float: left;
+}
+
+#twitter_bar #twitter_text .twitter-followers {
+}
+
+#twitter_bar #twitter_text .tweet {
+  margin-left: 75px;
+}
+
+@media (max-width: 480px) {
+  #twitter_bar #twitter_text img {
+    margin-top: 0;
+    width: 30px;
+    height: 21px;
+  }
+
+  #twitter_bar #twitter_text p {
+    padding-left: 40px;
+  }
+}
+
+/*==================================== BREADCRUMBS =================================================*/
+
+.breadcrumbs {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background: #ffffff;
+  font-size: 1.1em;
+}
+
+/*==================================== PAGINATION ==================================================*/
+
+.pagination ul li a {
+  background: #ffffff;
+}
+
+/*==================================== RECENT POSTS ================================================*/
+
+#recent_posts {
+  margin-bottom: 20px;
+  padding: 20px;
+  background: #ffffff;
+}
+
+#recent_posts h5.recent-posts-post-title {
+  font-size: 1.2em;
+  line-height: 1em;
+}
+
+.recent-posts-image {
+  margin-bottom: 10px;
+}
+
+/*==================================== HTML BOX ==================================================*/
+
+#htmlbox_container {
+  margin-bottom: 20px;
+}
+
+/*==================================== MAGAZINE ==================================================*/
+
+#magazine .post-container {
+  overflow: hidden;
+  margin-bottom: 10px;
+  padding: 20px;
+  border: 1px dotted #dddddd;
+}
+
+#magazine .magazine-post-container  h2.posts-title {
+  margin: 0 0 10px 0;
+  font-size: 22px;
+  line-height: 1em;
+}
+
+#magazine .magazine-metadata {
+  padding-bottom: 10px;
+  font-size: 11px;
+}
+
+#magazine .magazine-post-container  div#comments {
+  font-size: 11px;
+  line-height: 1em;
+}
+
+#magazine .magazine-post-container img.wp-post-image {
+  width: 100%;
+  height: auto;
+}
+
+#magazine .magazine-wide-post img.wp-post-image {
+  float: left;
+  margin: 0 10px 10px 0;
+  width: auto;
+  height: auto;
+}
+
+/*==================================== PRODUCT ==================================================*/
+
+#product_element_section {
+  margin-bottom: 20px;
+}
+
+#product_element_section #cyberchimps_product_media {
+  text-align: center;
+}
+
+#product_element_section .flex-video {
+  margin-bottom: 0;
+}
+
+#product_element_section .cyberchimps-product-link {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/********************************************************************************************************************/
+/****************************************** MEDIA QUERIES ***********************************************************/
+/********************************************************************************************************************/
+
+/*==================================== PHONES ====================================================*/
+
+@media (max-width: 480px) {
+  header#cc-header .span7 {
+    text-align: center;
+  }
+
+  header#cc-header .span5 {
+    text-align: center;
+  }
+
+  header#cc-header .span5 div.icons a {
+    float: none;
+  }
+
+  header#cc-header .span5 div.blog-description {
+    float: none;
+  }
+
+  header#cc-header .span5 div.register {
+    float: none;
+  }
+
+  header#cc-header .span5 #searchform {
+    float: none;
+  }
+}
