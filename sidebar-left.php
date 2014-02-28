@@ -22,41 +22,41 @@
 	<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar( 'sidebar-left' ) ) : ?>
 		
 		<div class="widget-container">    
-			<h3 class="widget-title"><?php _e('Pages', 'slickhousepro' ); ?></h3>
+			<h3 class="widget-title"><?php _e('Pages', 'slickhouse' ); ?></h3>
 			<ul>
     			<?php wp_list_pages('title_li=' ); ?>
     		</ul>
     	</div>
     
 		<div class="widget-container">    
-    		<h3 class="widget-title"><?php _e( 'Archives', 'slickhousepro' ); ?></h3>
+    		<h3 class="widget-title"><?php _e( 'Archives', 'slickhouse' ); ?></h3>
     		<ul>
     			<?php wp_get_archives('type=monthly'); ?>
     		</ul>
     	</div>
         
 		<div class="widget-container">
-			<h3 class="widget-title"><?php _e('Categories', 'slickhousepro' ); ?></h3>
+			<h3 class="widget-title"><?php _e('Categories', 'slickhouse' ); ?></h3>
 			<ul>
 				<?php wp_list_categories('show_count=1&title_li='); ?>
 			</ul>
         </div>
         
         <div class="widget-container">
-        	<h3 class="widget-title"><?php _e('WordPress', 'slickhousepro' ); ?></h3>
+        	<h3 class="widget-title"><?php _e('WordPress', 'slickhouse' ); ?></h3>
         	<ul>
         		<?php wp_register(); ?>
         		<li><?php wp_loginout(); ?></li>
-        		<li><a href="<?php echo esc_url( 'http://wordpress.org/' ); ?>" target="_blank" title="<?php esc_attr_e('Powered by WordPress, state-of-the-art semantic personal publishing platform.', 'slickhousepro'); ?>"> <?php _e('WordPress', 'slickhousepro' ); ?></a></li>
+        		<li><a href="<?php echo esc_url( 'http://wordpress.org/' ); ?>" target="_blank" title="<?php esc_attr_e('Powered by WordPress, state-of-the-art semantic personal publishing platform.', 'slickhouse'); ?>"> <?php _e('WordPress', 'slickhouse' ); ?></a></li>
         		<?php wp_meta(); ?>
     		</ul>
 		</div>
 		
 		<div class="widget-container">
-			<h3 class="widget-title"><?php _e('Subscribe', 'slickhousepro' ); ?></h3>
+			<h3 class="widget-title"><?php _e('Subscribe', 'slickhouse' ); ?></h3>
 			<ul>
-				<li><a href="<?php bloginfo('rss2_url'); ?>"><?php _e('Entries (RSS)', 'slickhousepro' ); ?></a></li>
-				<li><a href="<?php bloginfo('comments_rss2_url'); ?>"><?php _e('Comments (RSS)', 'slickhousepro' ); ?></a></li>
+				<li><a href="<?php bloginfo('rss2_url'); ?>"><?php _e('Entries (RSS)', 'slickhouse' ); ?></a></li>
+				<li><a href="<?php bloginfo('comments_rss2_url'); ?>"><?php _e('Comments (RSS)', 'slickhouse' ); ?></a></li>
 			</ul>
 		</div>
 		

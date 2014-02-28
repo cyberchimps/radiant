@@ -17,7 +17,7 @@
 
 // Load text domain.
 function cyberchimps_text_domain() {
-	load_theme_textdomain( 'slickhousepro', get_template_directory() . '/inc/languages' );
+	load_theme_textdomain( 'slickhouse', get_template_directory() . '/inc/languages' );
 }
 add_action( 'after_setup_theme', 'cyberchimps_text_domain' );
 
@@ -50,7 +50,7 @@ if ( !function_exists( 'cyberchimps_comment' ) ) :
 			case 'trackback' :
 				?>
 				<li class="post pingback">
-				<p><?php _e( 'Pingback:', 'slickhousepro' ); ?> <?php comment_author_link(); ?><?php edit_comment_link( __( '(Edit)', 'slickhousepro' ), ' ' ); ?></p>
+				<p><?php _e( 'Pingback:', 'slickhouse' ); ?> <?php comment_author_link(); ?><?php edit_comment_link( __( '(Edit)', 'slickhouse' ), ' ' ); ?></p>
 				<?php
 				break;
 			default :
@@ -60,11 +60,11 @@ if ( !function_exists( 'cyberchimps_comment' ) ) :
 						<footer>
 							<div class="comment-author reviewer vcard">
 								<?php echo get_avatar( $comment, 40 ); ?>
-								<?php printf( '%s <span class="says">' . __( 'says:', 'slickhousepro' ) . '</span>', sprintf( '<cite class="fn">%s</cite>', get_comment_author_link() ) ); ?>
+								<?php printf( '%s <span class="says">' . __( 'says:', 'slickhouse' ) . '</span>', sprintf( '<cite class="fn">%s</cite>', get_comment_author_link() ) ); ?>
 							</div>
 							<!-- .comment-author .vcard -->
 							<?php if ( $comment->comment_approved == '0' ) : ?>
-								<em><?php _e( 'Your comment is awaiting moderation.', 'slickhousepro' ); ?></em>
+								<em><?php _e( 'Your comment is awaiting moderation.', 'slickhouse' ); ?></em>
 								<br/>
 							<?php endif; ?>
 
@@ -73,10 +73,10 @@ if ( !function_exists( 'cyberchimps_comment' ) ) :
 									<time pubdate datetime="<?php comment_time( 'c' ); ?>">
 										<?php
 										/* translators: 1: date, 2: time */
-										printf( __( '%1$s at %2$s', 'slickhousepro' ), get_comment_date(), get_comment_time() ); ?>
+										printf( __( '%1$s at %2$s', 'slickhouse' ), get_comment_date(), get_comment_time() ); ?>
 									</time>
 								</a>
-								<?php edit_comment_link( __( '(Edit)', 'slickhousepro' ), ' ' );
+								<?php edit_comment_link( __( '(Edit)', 'slickhouse' ), ' ' );
 								?>
 							</div>
 							<!-- .comment-meta .commentmetadata -->
@@ -172,7 +172,7 @@ function cyberchimps_options_help_header() {
 }
 
 function cyberchimps_options_help_sub_header() {
-	$text = __( 'CyberChimps Professional Responsive WordPress Theme', 'slickhousepro' );
+	$text = __( 'CyberChimps Professional Responsive WordPress Theme', 'slickhouse' );
 
 	return $text;
 }
