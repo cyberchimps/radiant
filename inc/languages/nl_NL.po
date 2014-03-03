@@ -1,10 +1,10 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Cyberchimps Pro\n"
+"Project-Id-Version: SlickHouse\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-19 15:11:28 UTC\n"
-"PO-Revision-Date: 2013-07-26 10:27-0000\n"
-"Last-Translator: CyberChimps <support@cyberchimps.com>\n"
+"POT-Creation-Date: 2014-02-28 13:47:05 UTC\n"
+"PO-Revision-Date: 2014-03-03 17:01+0530\n"
+"Last-Translator: Surya <surya@cyberchimps.com>\n"
 "Language-Team: Dutch, Netherlands\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -14,38 +14,38 @@ msgstr ""
 
 #: ../../404.php
 msgid "Oops! That page cannot be found."
-msgstr "Oops! Die pagina kan niet worden gevonden."
+msgstr "Oeps! Die pagina kan niet worden gevonden."
 
 #: ../../404.php
 msgid ""
 "It looks like nothing was found at this location. Maybe try searching for it?"
 msgstr ""
-"Het lijkt erop dat er niets werd gevonden op deze locatie. Misschien "
-"proberen te zoeken voor?"
+"Het lijkt erop dat niets werd gevonden op deze locatie. Misschien probeer te "
+"zoeken voor het?"
 
 #: ../../archive.php
 msgid "Category Archives: %s"
-msgstr "Categorie archief: %s"
+msgstr "Categorie Archieven: %s"
 
 #: ../../archive.php
 msgid "Tag Archives: %s"
-msgstr "Tagarchief: %s"
+msgstr "Tag Archives: %s"
 
 #: ../../archive.php
 msgid "Author Archives: %s"
-msgstr "Auteursarchief: %s"
+msgstr "Auteur Archieven: %s"
 
 #: ../../archive.php
 msgid "Daily Archives: %s"
-msgstr "Dagelijks archief: %s"
+msgstr "Dagelijkse archieven: %s"
 
 #: ../../archive.php
 msgid "Monthly Archives: %s"
-msgstr "Maandelijks archief: %s"
+msgstr "Maandelijks Archief: %s"
 
 #: ../../archive.php
 msgid "Yearly Archives: %s"
-msgstr "Jaarlijks archief: %s"
+msgstr "Jaarlijkse archieven: %s"
 
 #: ../../archive.php ../../footer.php ../../sidebar-left.php
 #: ../../sidebar-right.php ../../sidebar.php
@@ -67,7 +67,7 @@ msgstr "Oudere Reacties"
 
 #: ../../comments.php
 msgid "Newer Comments"
-msgstr "Nieuwere opmerkingen"
+msgstr "Nieuwere reacties"
 
 #: ../../comments.php
 msgid "Comments are closed."
@@ -99,8 +99,8 @@ msgstr "Paginas"
 msgid "Categories"
 msgstr "Categorieën"
 
-#: ../../sidebar.php ../../sidebar-right.php ../../sidebar-left.php
-#: ../../footer.php
+#: ../../footer.php ../../sidebar-left.php ../../sidebar-right.php
+#: ../../sidebar.php
 msgid "WordPress"
 msgstr "WordPress"
 
@@ -120,7 +120,7 @@ msgstr "(Edit)"
 
 #: ../../functions.php
 msgid "says:"
-msgstr "says"
+msgstr "zegt"
 
 #: ../../functions.php
 msgid "Your comment is awaiting moderation."
@@ -128,15 +128,27 @@ msgstr "Je reactie moet nog  worden goedgekeurd."
 
 #: ../../functions.php
 msgid "%1$s at %2$s"
-msgstr "%1$s om %2$s"
+msgstr "%1$ s op %2$ s"
 
 #: ../../functions.php
-msgid "CyberChimps Pro Responsive WordPress Starter Theme"
-msgstr "CyberChimps Pro responsieve Starter WordPress thema"
+msgid "CyberChimps Professional Responsive WordPress Theme"
+msgstr "Primo Pro responsieve Starter WordPress thema"
 
 #: ../../functions.php
-msgid "Cyberchimps Link"
-msgstr "Cyberchimps Link"
+msgid "Slider Lite"
+msgstr "Schuifregelaar Lite"
+
+#: ../../functions.php
+msgid "Boxes"
+msgstr "Vakken"
+
+#: ../../functions.php
+msgid "Portfolio Lite"
+msgstr "Portefeuille Lite"
+
+#: ../../functions.php
+msgid "Post Page"
+msgstr "Plaats een reactie"
 
 #: ../../image.php
 msgid "Published"
@@ -172,7 +184,7 @@ msgstr "Trackback URL"
 
 #: ../../image.php
 msgid "Comments are closed, but you can leave a trackback: "
-msgstr "Reacties zijn gesloten, maar je kunt een trackback achterlaten:"
+msgstr "Reacties zijn gesloten, maar u kunt laat een trackback:"
 
 #: ../../image.php
 msgid "Trackbacks are closed, but you can %s"
@@ -192,19 +204,19 @@ msgstr "Niets gevonden"
 
 #: ../../no-results.php
 msgid "Ready to publish your first post?"
-msgstr "Klaar om je eerste bericht te publiceren?"
+msgstr "Klaar om te publiceren uw eerste post?"
 
 #: ../../no-results.php
 msgid "Get started here"
-msgstr "Get hier begon"
+msgstr "Hier starten"
 
 #: ../../no-results.php
 msgid ""
 "Sorry, but nothing matched your search terms. Please try again with some "
 "different keywords."
 msgstr ""
-"Sorry, maar niets gevonden die aan uw zoektermen. Probeer het opnieuw met "
-"een aantal verschillende zoekwoorden."
+"Sorry, maar we hebben geen resultaten gevonden. Probeer opnieuw met andere "
+"trefwoorden."
 
 #: ../../no-results.php
 msgid ""
@@ -215,7 +227,7 @@ msgstr ""
 
 #: ../../search.php
 msgid "Search Results for: %s"
-msgstr "Zoekresultaten voor: %s"
+msgstr "Zoek resultaten voor: %s"
 
 #: ../../sidebar-left.php ../../sidebar-right.php ../../sidebar.php
 msgid "Subscribe"
@@ -223,7 +235,7 @@ msgstr "Abonneer"
 
 #: ../../sidebar-left.php ../../sidebar-right.php ../../sidebar.php
 msgid "Entries (RSS)"
-msgstr "Entries (RSS)"
+msgstr "RSS"
 
 #: ../../sidebar-left.php ../../sidebar-right.php ../../sidebar.php
 msgid "Comments (RSS)"

@@ -1,10 +1,10 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Cyberchimps Pro\n"
+"Project-Id-Version: SlickHouse\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-19 15:11:28 UTC\n"
-"PO-Revision-Date: 2013-07-26 10:27-0000\n"
-"Last-Translator: CyberChimps <support@cyberchimps.com>\n"
+"POT-Creation-Date: 2014-02-28 13:47:05 UTC\n"
+"PO-Revision-Date: 2014-03-03 17:01+0530\n"
+"Last-Translator: Surya <surya@cyberchimps.com>\n"
 "Language-Team: Hindi, India\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -14,13 +14,13 @@ msgstr ""
 
 #: ../../404.php
 msgid "Oops! That page cannot be found."
-msgstr "उफ़! उस पृष्ठ पाया नहीं जा सकता."
+msgstr "उफ़! उस पृष्ठ नहीं मिल सका।"
 
 #: ../../404.php
 msgid ""
 "It looks like nothing was found at this location. Maybe try searching for it?"
 msgstr ""
-"ऐसा लगता है कि इस स्थान पर कुछ भी नहीं पाया गया था. शायद इसके लिए खोज की कोशिश की?"
+"ऐसा लगता है कि कुछ भी नहीं इस स्थान पर पाया गया था। शायद इसके लिए खोज का प्रयास करें?"
 
 #: ../../archive.php
 msgid "Category Archives: %s"
@@ -32,19 +32,19 @@ msgstr "टैग अभिलेखागार: %s"
 
 #: ../../archive.php
 msgid "Author Archives: %s"
-msgstr "लेखक अभिलेखागार: %s"
+msgstr "अभिलेखागार लेखक: %s"
 
 #: ../../archive.php
 msgid "Daily Archives: %s"
-msgstr "नित्य संग्रह: %s"
+msgstr "दैनिक अभिलेखागार: %s"
 
 #: ../../archive.php
 msgid "Monthly Archives: %s"
-msgstr "मासिक संग्रह: %s"
+msgstr "मासिक अभिलेखागार: %s"
 
 #: ../../archive.php
 msgid "Yearly Archives: %s"
-msgstr "वार्षिक संग्रह: %s"
+msgstr "वार्षिक अभिलेखागार: %s"
 
 #: ../../archive.php ../../footer.php ../../sidebar-left.php
 #: ../../sidebar-right.php ../../sidebar.php
@@ -70,11 +70,11 @@ msgstr "नई टिप्पणियाँ"
 
 #: ../../comments.php
 msgid "Comments are closed."
-msgstr "टिप्पणियाँ बंद हो जाती हैं."
+msgstr "टिप्पणियाँ बंद हो जाती हैं।"
 
 #: ../../content.php
 msgid "Permalink to %s"
-msgstr "Permalink %s"
+msgstr "%S के लिए कहते हैं:"
 
 #: ../../content.php
 msgid "Continue reading"
@@ -82,7 +82,7 @@ msgstr "पढ़ना जारी रखें"
 
 #: ../../content.php ../../image.php
 msgid "Pages:"
-msgstr "पृष्ठ:"
+msgstr "पृष्ठ"
 
 #: ../../content.php ../../image.php
 msgid "Edit"
@@ -98,8 +98,8 @@ msgstr "पृष्ठ"
 msgid "Categories"
 msgstr "श्रेणी"
 
-#: ../../sidebar.php ../../sidebar-right.php ../../sidebar-left.php
-#: ../../footer.php
+#: ../../footer.php ../../sidebar-left.php ../../sidebar-right.php
+#: ../../sidebar.php
 msgid "WordPress"
 msgstr "वर्डप्रेस"
 
@@ -123,19 +123,31 @@ msgstr "कहते हैं:"
 
 #: ../../functions.php
 msgid "Your comment is awaiting moderation."
-msgstr "आपकी टिप्पणी मॉडरेशन का इंतजार कर रहा है."
+msgstr "आपकी टिप्पणी मॉडरेशन का इंतजार है।"
 
 #: ../../functions.php
 msgid "%1$s at %2$s"
-msgstr "%1$s को %2$s पर"
+msgstr "%2$ s पर %1$ s"
 
 #: ../../functions.php
-msgid "CyberChimps Pro Responsive WordPress Starter Theme"
-msgstr "CyberChimps प्रो उत्तरदायी WordPress स्टार्टर थीम"
+msgid "CyberChimps Professional Responsive WordPress Theme"
+msgstr "Primo प्रो उत्तरदायी WordPress स्टार्टर थीम"
 
 #: ../../functions.php
-msgid "Cyberchimps Link"
-msgstr "Cyberchimps लिंक"
+msgid "Slider Lite"
+msgstr "स्लाइडर लाइट"
+
+#: ../../functions.php
+msgid "Boxes"
+msgstr "बक्से"
+
+#: ../../functions.php
+msgid "Portfolio Lite"
+msgstr "पोर्टफोलियो लाइट"
+
+#: ../../functions.php
+msgid "Post Page"
+msgstr "पोस्ट एक टिप्पणी"
 
 #: ../../image.php
 msgid "Published"
@@ -163,7 +175,7 @@ msgstr "पोस्ट एक टिप्पणी"
 
 #: ../../image.php
 msgid "or leave a trackback"
-msgstr "या एक trackback छोड़ दो"
+msgstr "या एक trackback छोड़"
 
 #: ../../image.php
 msgid "Trackback URL"
@@ -171,11 +183,11 @@ msgstr "Trackback यूआरएल"
 
 #: ../../image.php
 msgid "Comments are closed, but you can leave a trackback: "
-msgstr "टिप्पणियाँ बंद हो जाती हैं, लेकिन आप एक trackback छोड़ कर सकते हैं:"
+msgstr "टिप्पणियाँ बंद हो जाती हैं, लेकिन आप एक trackback छोड़ सकते हैं"
 
 #: ../../image.php
 msgid "Trackbacks are closed, but you can %s"
-msgstr "Trackbacks बंद हो जाती हैं, लेकिन आप %s कर सकते हैं"
+msgstr "Trackbacks बंद हो जाती हैं, लेकिन आप कर सकते हैं %s"
 
 #: ../../image.php
 msgid "post a comment"
@@ -183,7 +195,7 @@ msgstr "पोस्ट एक टिप्पणी"
 
 #: ../../image.php
 msgid "Both comments and trackbacks are currently closed."
-msgstr "दोनों ही टिप्पणियाँ और trackbacks वर्तमान में बंद हो जाती हैं."
+msgstr "दोनों ही टिप्पणियाँ और trackbacks वर्तमान में बंद हो जाती हैं।"
 
 #: ../../no-results.php
 msgid "Nothing Found"
@@ -191,7 +203,7 @@ msgstr "कुछ भी नहीं मिला"
 
 #: ../../no-results.php
 msgid "Ready to publish your first post?"
-msgstr "अपनी पहली पोस्ट प्रकाशित करने के लिए तैयार है?"
+msgstr "अपनी पहली पोस्ट प्रकाशित करने के लिए तैयार हैं?"
 
 #: ../../no-results.php
 msgid "Get started here"
@@ -202,20 +214,19 @@ msgid ""
 "Sorry, but nothing matched your search terms. Please try again with some "
 "different keywords."
 msgstr ""
-"क्षमा करें, लेकिन कुछ भी नहीं आपके खोज शब्दों का मिलान नहीं हुआ. कुछ अलग खोजशब्दों के साथ "
-"फिर से प्रयास करें."
+"क्षमा करें, लेकिन कुछ भी नहीं अपना खोज शब्द मिलान। कृपया कुछ अलग अलग खोजशब्दों के साथ "
+"पुन: प्रयास करें।"
 
 #: ../../no-results.php
 msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
 "searching can help."
 msgstr ""
-"ऐसा लगता है हम मिल नहीं कर सकता क्या आप के लिए देख रहे हैं। शायद खोज करने में मदद कर "
-"सकते हैं।"
+"ऐसा लगता है हम तुम्हारे लिए क्या देख रहे हो नहीं ढूँढ सकता। शायद खोज में मदद कर सकते हैं।"
 
 #: ../../search.php
 msgid "Search Results for: %s"
-msgstr "परिणाम खोजने के लिए लिखे %s"
+msgstr "खोज परिणाम के लिए: %s"
 
 #: ../../sidebar-left.php ../../sidebar-right.php ../../sidebar.php
 msgid "Subscribe"

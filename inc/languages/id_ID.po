@@ -1,10 +1,10 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Cyberchimps Pro\n"
+"Project-Id-Version: SlickHouse\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-19 15:11:28 UTC\n"
-"PO-Revision-Date: 2013-07-26 10:27-0000\n"
-"Last-Translator: CyberChimps <support@cyberchimps.com>\n"
+"POT-Creation-Date: 2014-02-28 13:47:05 UTC\n"
+"PO-Revision-Date: 2014-03-03 17:01+0530\n"
+"Last-Translator: Surya <surya@cyberchimps.com>\n"
 "Language-Team: Indonesian, Indonesia\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -14,13 +14,13 @@ msgstr ""
 
 #: ../../404.php
 msgid "Oops! That page cannot be found."
-msgstr "Ups! Halaman yang tidak dapat ditemukan."
+msgstr "Oops! Halaman tidak dapat ditemukan."
 
 #: ../../404.php
 msgid ""
 "It looks like nothing was found at this location. Maybe try searching for it?"
 msgstr ""
-"Sepertinya tidak ada yang ditemukan di lokasi ini. Mungkin coba cari untuk "
+"Sepertinya tidak ada yang ditemukan di lokasi ini. Mungkin mencoba mencari "
 "itu?"
 
 #: ../../archive.php
@@ -37,7 +37,7 @@ msgstr "Pengarang Archives: %s"
 
 #: ../../archive.php
 msgid "Daily Archives: %s"
-msgstr "Arsip Harian: %s"
+msgstr "Harian Arsip: %s"
 
 #: ../../archive.php
 msgid "Monthly Archives: %s"
@@ -45,7 +45,7 @@ msgstr "Arsip Bulanan: %s"
 
 #: ../../archive.php
 msgid "Yearly Archives: %s"
-msgstr "Arsip Tahunan: %s"
+msgstr "Tahunan Archives: %s"
 
 #: ../../archive.php ../../footer.php ../../sidebar-left.php
 #: ../../sidebar-right.php ../../sidebar.php
@@ -67,7 +67,7 @@ msgstr "Lama Komentar"
 
 #: ../../comments.php
 msgid "Newer Comments"
-msgstr "Newer komentar"
+msgstr "Komentar baru"
 
 #: ../../comments.php
 msgid "Comments are closed."
@@ -75,7 +75,7 @@ msgstr "Komentar ditutup."
 
 #: ../../content.php
 msgid "Permalink to %s"
-msgstr "Tautkan ke %s"
+msgstr "Permalink ke %s"
 
 #: ../../content.php
 msgid "Continue reading"
@@ -83,7 +83,7 @@ msgstr "Lanjutkan membaca"
 
 #: ../../content.php ../../image.php
 msgid "Pages:"
-msgstr "Halaman:"
+msgstr "Halaman"
 
 #: ../../content.php ../../image.php
 msgid "Edit"
@@ -99,8 +99,8 @@ msgstr "Halaman"
 msgid "Categories"
 msgstr "Kategori"
 
-#: ../../sidebar.php ../../sidebar-right.php ../../sidebar-left.php
-#: ../../footer.php
+#: ../../footer.php ../../sidebar-left.php ../../sidebar-right.php
+#: ../../sidebar.php
 msgid "WordPress"
 msgstr "WordPress"
 
@@ -109,8 +109,7 @@ msgstr "WordPress"
 msgid ""
 "Powered by WordPress, state-of-the-art semantic personal publishing platform."
 msgstr ""
-"Didukung oleh platform WordPress, state-of-the-art penerbitan semantik "
-"pribadi."
+"Powered by WordPress, negara-of-the-art publishing platform semantik pribadi."
 
 #: ../../functions.php
 msgid "Pingback:"
@@ -130,19 +129,31 @@ msgstr "Komentar Anda sedang menunggu moderasi."
 
 #: ../../functions.php
 msgid "%1$s at %2$s"
-msgstr "%1$s pukul %2$s"
+msgstr "%1$ s di %2$ s"
 
 #: ../../functions.php
-msgid "CyberChimps Pro Responsive WordPress Starter Theme"
-msgstr "CyberChimps Pro Responsif WordPress Tema Starter"
+msgid "CyberChimps Professional Responsive WordPress Theme"
+msgstr "Primo Pro Responsif WordPress Tema Starter"
 
 #: ../../functions.php
-msgid "Cyberchimps Link"
-msgstr "Cyberchimps Tautan"
+msgid "Slider Lite"
+msgstr "Slider Lite"
+
+#: ../../functions.php
+msgid "Boxes"
+msgstr "Kotak"
+
+#: ../../functions.php
+msgid "Portfolio Lite"
+msgstr "Portofolio Lite"
+
+#: ../../functions.php
+msgid "Post Page"
+msgstr "Posting komentar"
 
 #: ../../image.php
 msgid "Published"
-msgstr "Telah Terbit"
+msgstr "Diterbitkan"
 
 #: ../../image.php
 msgid "size"
@@ -174,11 +185,11 @@ msgstr "Trackback URL"
 
 #: ../../image.php
 msgid "Comments are closed, but you can leave a trackback: "
-msgstr "Komentar yang ditutup, tapi Anda dapat meninggalkan trackback:"
+msgstr "Komentar ditutup, tapi Anda dapat meninggalkan trackback"
 
 #: ../../image.php
 msgid "Trackbacks are closed, but you can %s"
-msgstr "Pelacakan ditutup, tapi Anda dapat %s"
+msgstr "Trackbacks ditutup, tapi Anda dapat %s"
 
 #: ../../image.php
 msgid "post a comment"
@@ -198,15 +209,15 @@ msgstr "Siap untuk mempublikasikan posting pertama Anda?"
 
 #: ../../no-results.php
 msgid "Get started here"
-msgstr "Persiapan di sini"
+msgstr "Mulai di sini"
 
 #: ../../no-results.php
 msgid ""
 "Sorry, but nothing matched your search terms. Please try again with some "
 "different keywords."
 msgstr ""
-"Maaf, tapi tidak ada yang cocok dengan istilah pencarian Anda. Silakan coba "
-"lagi dengan beberapa kata kunci yang berbeda."
+"Maaf, tapi tidak cocok dengan istilah pencarian Anda. Coba lagi dengan "
+"beberapa kata kunci yang berbeda."
 
 #: ../../no-results.php
 msgid ""
@@ -218,7 +229,7 @@ msgstr ""
 
 #: ../../search.php
 msgid "Search Results for: %s"
-msgstr "Hasil pencarian tentang: %s"
+msgstr "Hasil pencarian untuk: %s"
 
 #: ../../sidebar-left.php ../../sidebar-right.php ../../sidebar.php
 msgid "Subscribe"

@@ -1,10 +1,10 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Cyberchimps Pro\n"
+"Project-Id-Version: SlickHouse\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-19 15:11:28 UTC\n"
-"PO-Revision-Date: 2013-07-26 10:27-0000\n"
-"Last-Translator: CyberChimps <support@cyberchimps.com>\n"
+"POT-Creation-Date: 2014-02-28 13:47:05 UTC\n"
+"PO-Revision-Date: 2014-03-03 17:01+0530\n"
+"Last-Translator: Surya <surya@cyberchimps.com>\n"
 "Language-Team: Japanese, Japan\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,17 +19,15 @@ msgstr "おっと！そのページが見つかりません。"
 #: ../../404.php
 msgid ""
 "It looks like nothing was found at this location. Maybe try searching for it?"
-msgstr ""
-"何もこの場所で発見されなかったように見えます。多分それを検索してみてくださ"
-"い？"
+msgstr "何もこの場所で発見されたように見えます。多分それを探してみてください？"
 
 #: ../../archive.php
 msgid "Category Archives: %s"
-msgstr "カテゴリー:"
+msgstr "カテゴリー アーカイブ: %s"
 
 #: ../../archive.php
 msgid "Tag Archives: %s"
-msgstr "アーカイブ:"
+msgstr "タグ別アーカイブ: %s"
 
 #: ../../archive.php
 msgid "Author Archives: %s"
@@ -37,7 +35,7 @@ msgstr "著者アーカイブ: %s"
 
 #: ../../archive.php
 msgid "Daily Archives: %s"
-msgstr "日別アーカイブ: %s"
+msgstr "デイリー アーカイブ: %s"
 
 #: ../../archive.php
 msgid "Monthly Archives: %s"
@@ -45,7 +43,7 @@ msgstr "月別アーカイブ: %s"
 
 #: ../../archive.php
 msgid "Yearly Archives: %s"
-msgstr "年別アーカイブ: %s"
+msgstr "年間アーカイブ： %s"
 
 #: ../../archive.php ../../footer.php ../../sidebar-left.php
 #: ../../sidebar-right.php ../../sidebar.php
@@ -75,15 +73,15 @@ msgstr "コメントフィード"
 
 #: ../../content.php
 msgid "Permalink to %s"
-msgstr "パーマへ%s"
+msgstr "%S への固定リンク"
 
 #: ../../content.php
 msgid "Continue reading"
-msgstr "読み続ける"
+msgstr "続きを読む"
 
 #: ../../content.php ../../image.php
 msgid "Pages:"
-msgstr "ページ:"
+msgstr "ページ"
 
 #: ../../content.php ../../image.php
 msgid "Edit"
@@ -99,8 +97,8 @@ msgstr "ページ"
 msgid "Categories"
 msgstr "部類"
 
-#: ../../sidebar.php ../../sidebar-right.php ../../sidebar-left.php
-#: ../../footer.php
+#: ../../footer.php ../../sidebar-left.php ../../sidebar-right.php
+#: ../../sidebar.php
 msgid "WordPress"
 msgstr "ワードプレス"
 
@@ -109,20 +107,20 @@ msgstr "ワードプレス"
 msgid ""
 "Powered by WordPress, state-of-the-art semantic personal publishing platform."
 msgstr ""
-"ワードプレスは、最先端のセマンティックパーソナルパブリッシングプラットフォー"
-"ムを搭載。"
+"最新の意味個人的なパブリッシング ・ プラットフォームのワードプレスによって供"
+"給。"
 
 #: ../../functions.php
 msgid "Pingback:"
-msgstr "ピンバック"
+msgstr "ピングバック:"
 
 #: ../../functions.php
 msgid "(Edit)"
-msgstr "(編集)"
+msgstr "（編集）"
 
 #: ../../functions.php
 msgid "says:"
-msgstr "さんより:"
+msgstr "発言"
 
 #: ../../functions.php
 msgid "Your comment is awaiting moderation."
@@ -130,19 +128,31 @@ msgstr "あなたのコメントは承認待ちです。"
 
 #: ../../functions.php
 msgid "%1$s at %2$s"
-msgstr "%1$s %2$s"
+msgstr "%1 %2$ の $ s"
 
 #: ../../functions.php
-msgid "CyberChimps Pro Responsive WordPress Starter Theme"
-msgstr "Cyber​​ChimpsプロレスポンシブWordPressのスターターテーマ"
+msgid "CyberChimps Professional Responsive WordPress Theme"
+msgstr "Primo Pro の応答性の高いワードプレスのスターターのテーマ"
 
 #: ../../functions.php
-msgid "Cyberchimps Link"
-msgstr "Cyber​​chimpsリンク"
+msgid "Slider Lite"
+msgstr "スライダーLiteの"
+
+#: ../../functions.php
+msgid "Boxes"
+msgstr "ボックス"
+
+#: ../../functions.php
+msgid "Portfolio Lite"
+msgstr "Lite のポートフォリオ"
+
+#: ../../functions.php
+msgid "Post Page"
+msgstr "コメントを投稿します。"
 
 #: ../../image.php
 msgid "Published"
-msgstr "発行者"
+msgstr "公開"
 
 #: ../../image.php
 msgid "size"
@@ -150,7 +160,7 @@ msgstr "サイズ"
 
 #: ../../image.php
 msgid "in"
-msgstr ":"
+msgstr "で"
 
 #: ../../image.php
 msgid "Previous"
@@ -162,31 +172,31 @@ msgstr "次"
 
 #: ../../image.php
 msgid "Post a comment"
-msgstr "コメントを投稿するにはログインしてください。"
+msgstr "コメントを投稿します。"
 
 #: ../../image.php
 msgid "or leave a trackback"
-msgstr "またはトラック バックを残す"
+msgstr "かtrackbackを残す"
 
 #: ../../image.php
 msgid "Trackback URL"
-msgstr "トラックバックURL"
+msgstr "トラック バック URL"
 
 #: ../../image.php
 msgid "Comments are closed, but you can leave a trackback: "
-msgstr "コメントは閉鎖されていますが、トラックバックを残すことができます："
+msgstr "コメント閉鎖されていますが、トラックバックを残すことができ"
 
 #: ../../image.php
 msgid "Trackbacks are closed, but you can %s"
-msgstr "トラック バックを閉じているが %s することができます。"
+msgstr "トラック バックは閉鎖することができます %s"
 
 #: ../../image.php
 msgid "post a comment"
-msgstr "コメントを投稿するにはログインしてください。"
+msgstr "コメントを投稿します。"
 
 #: ../../image.php
 msgid "Both comments and trackbacks are currently closed."
-msgstr "両方のコメントやトラックバックは現在閉鎖されています。"
+msgstr "両方のコメントやトラック バックは現在閉鎖されます。"
 
 #: ../../no-results.php
 msgid "Nothing Found"
@@ -194,7 +204,7 @@ msgstr "何が見つかりました"
 
 #: ../../no-results.php
 msgid "Ready to publish your first post?"
-msgstr "最初の投稿を公開する準備はできましたか？"
+msgstr "あなたの最初の記事を公開する準備ができて？"
 
 #: ../../no-results.php
 msgid "Get started here"
@@ -205,20 +215,20 @@ msgid ""
 "Sorry, but nothing matched your search terms. Please try again with some "
 "different keywords."
 msgstr ""
-"申し訳ありませんが、何も検索条件に一致するものがありません。いくつかの異なっ"
-"たキーワードで、もう一度やり直してください。"
+"申し訳ありませんが、何も検索語句にマッチします。いくつかの異なるキーワードで"
+"やり直してください。"
 
 #: ../../no-results.php
 msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
 "searching can help."
 msgstr ""
-"それはあなたが探しているものを見つけることができないようです。おそらく、検索"
-"することができます。"
+"我々 が探しているものを見つけることができないようです。おそらく、検索助けるこ"
+"とができます。"
 
 #: ../../search.php
 msgid "Search Results for: %s"
-msgstr "検索結果: %s"
+msgstr "検索の結果: %s"
 
 #: ../../sidebar-left.php ../../sidebar-right.php ../../sidebar.php
 msgid "Subscribe"
