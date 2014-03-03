@@ -250,6 +250,7 @@ function cyberchimps_typography_faces( $faces ) {
 		'MS Serif, New York, serif'                        => 'MS Serif',
 		'Arimo, Arial, sans-serif'                         => 'Arimo',
 		'Spinnaker, sans-serif'                            => 'Spinnaker',
+		'Great Vibes, cursive'							   => 'Great Vibes',
 	);
 
 	return $faces;
@@ -264,7 +265,7 @@ function cyberchimps_typography_styles( $styles ) {
 function cyberchimps_typography_defaults() {
 	$default = array(
 		'size'  => '14px',
-		'face'  => 'Arimo, Arial, sans-serif',
+		'face'  => 'Georgia, serif',
 		'style' => 'normal',
 		'color' => '#555555'
 	);
@@ -274,7 +275,7 @@ function cyberchimps_typography_defaults() {
 
 function cyberchimps_typography_heading_defaults() {
 	$default = array(
-		'face'  => 'Spinnaker, sans-serif',
+		'face'  => 'Great Vibes, cursive',
 	);
 
 	return $default;
@@ -298,10 +299,3 @@ function cyberchimps_blog_draganddrop_defaults() {
 }
 
 add_filter( 'cyberchimps_elements_draganddrop_defaults', 'cyberchimps_blog_draganddrop_defaults' );
-
-// Default for twitter bar handle
-function cyberchimps_twitter_handle_filter() {
-	return 'WordPress';
-}
-
-add_filter( 'cyberchimps_twitter_handle_filter', 'cyberchimps_twitter_handle_filter' );
