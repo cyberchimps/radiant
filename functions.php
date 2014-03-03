@@ -266,8 +266,7 @@ function cyberchimps_typography_defaults() {
 	$default = array(
 		'size'  => '14px',
 		'face'  => 'Georgia, serif',
-		'style' => 'normal',
-		'color' => '#555555'
+		'style' => 'normal'
 	);
 
 	return $default;
