@@ -1,9 +1,9 @@
 /*
-Theme Name: SlickHouse Pro
-Theme URI: http://cyberchimps.com/slickhousepro/
+Theme Name: SlickHouse
+Theme URI: http://cyberchimps.com/slickhouse/
 Author: CyberChimps
 Author URI: http://cyberchimps.com/
-Description: SlickHouse Pro is a fully Responsive Drag & Drop Starter Wordpress Theme that adds amazing new functionality to your Wordpress website. Featuring Twitter Bootstrap, and responsive touch friendly theme options that work on any device.
+Description: SlickHouse is a fully Responsive Drag & Drop Starter Wordpress Theme that adds amazing new functionality to your Wordpress website. Featuring Twitter Bootstrap, and responsive touch friendly theme options that work on any device.
 Version: 1.0.0.0
 Tags: white, black, silver, light, two-columns, right-sidebar, fixed-width, custom-background, custom-colors, custom-menu, featured-images, post-formats, theme-options, threaded-comments, sticky-post
 License: GNU General Public License
@@ -828,56 +828,6 @@ table#wp-calendar td {
   line-height: 30px;
 }
 
-/*==================================== CALLOUT ====================================================*/
-
-#callout_container {
-  margin-bottom: 20px;
-}
-
-#callout {
-  padding: 20px;
-  background: #ffffff;
-}
-
-.callout-text h2.callout-title {
-  margin-top: 0;
-  font-size: 1.6em;
-  line-height: 1em;
-}
-
-.callout-text p {
-  font-size: 1.2em;
-}
-
-.callout-text p:last-child {
-  margin-bottom: 0;
-}
-
-#callout_button a {
-  float: right;
-  margin-top: 5px;
-}
-
-/*==================================== WIDGET BOXES ===============================================*/
-
-.box {
-  margin-bottom: 20px;
-  padding: 20px;
-  background: #ffffff;
-}
-
-h2.box-widget-title {
-  margin-top: 15px;
-  text-align: center;
-  font-size: 1.6em;
-  line-height: 1em;
-}
-
-.box p {
-  font-size: 1.1em;
-  line-height: 1.2em;
-}
-
 /*==================================== BOXES ======================================================*/
 
 #boxes_container .box a {
@@ -891,70 +841,6 @@ h2.box-widget-title {
   cursor: default;
 }
 
-/*==================================== CAROUSEL ===================================================*/
-
-#cc-carousel {
-  padding: 20px 50px;
-  background: #ffffff;
-}
-
-#cc-carousel ul {
-  margin: 0;
-  padding: 0;
-  max-height: 150px;
-  width: 100%;
-}
-
-#cc-carousel ul li {
-  position: relative;
-  display: inline-block;
-  margin-bottom: 0;
-}
-
-#cc-carousel ul li .carousel-captions {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.5);
-}
-
-.carousel-caption {
-  background: #333;
-}
-
-#cc-carousel ul li .carousel-captions p {
-  margin: 0;
-  color: #ffffff;
-  text-align: center;
-  font-weight: normal;
-  font-size: 1em;
-}
-
-#cc-carousel .carousel-control {
-  top: 50%;
-  border: none;
-}
-
-#cc-carousel .carousel-control.left {
-  left: 5px;
-}
-
-#cc-carousel .carousel-control.right {
-  right: 5px;
-}
-
-@media (max-width: 767px) {
-  #cc-carousel [class*="span"], .row-fluid #cc-carousel [class*="span"] {
-    float: left;
-    margin-left: 2.762430939%;
-    width: 14.364640883%;
-  }
-
-  #cc-carousel [class*="span"]:first-child, .row-fluid #cc-carousel [class*="span"]:first-child {
-    margin-left: 0;
-  }
-}
 
 /*==================================== PORTFOLIO ===================================================*/
 
@@ -987,45 +873,7 @@ h2.box-widget-title {
   padding: 20px;
 }
 
-/*==================================== TWITTER =====================================================*/
 
-#twitter_container {
-  margin-bottom: 20px;
-}
-
-#twitter_bar {
-  background: #ffffff;
-}
-
-#twitter_bar #twitter_text li {
-  float: left;
-  clear: left;
-  width: 100%;
-}
-
-#twitter_bar #twitter_text .twitter-img {
-  display: inline;
-  float: left;
-}
-
-#twitter_bar #twitter_text .twitter-followers {
-}
-
-#twitter_bar #twitter_text .tweet {
-  margin-left: 75px;
-}
-
-@media (max-width: 480px) {
-  #twitter_bar #twitter_text img {
-    margin-top: 0;
-    width: 30px;
-    height: 21px;
-  }
-
-  #twitter_bar #twitter_text p {
-    padding-left: 40px;
-  }
-}
 
 /*==================================== BREADCRUMBS =================================================*/
 
@@ -1042,84 +890,6 @@ h2.box-widget-title {
   background: #ffffff;
 }
 
-/*==================================== RECENT POSTS ================================================*/
-
-#recent_posts {
-  margin-bottom: 20px;
-  padding: 20px;
-  background: #ffffff;
-}
-
-#recent_posts h5.recent-posts-post-title {
-  font-size: 1.2em;
-  line-height: 1em;
-}
-
-.recent-posts-image {
-  margin-bottom: 10px;
-}
-
-/*==================================== HTML BOX ==================================================*/
-
-#htmlbox_container {
-  margin-bottom: 20px;
-}
-
-/*==================================== MAGAZINE ==================================================*/
-
-#magazine .post-container {
-  overflow: hidden;
-  margin-bottom: 10px;
-  padding: 20px;
-  border: 1px dotted #dddddd;
-}
-
-#magazine .magazine-post-container  h2.posts-title {
-  margin: 0 0 10px 0;
-  font-size: 22px;
-  line-height: 1em;
-}
-
-#magazine .magazine-metadata {
-  padding-bottom: 10px;
-  font-size: 11px;
-}
-
-#magazine .magazine-post-container  div#comments {
-  font-size: 11px;
-  line-height: 1em;
-}
-
-#magazine .magazine-post-container img.wp-post-image {
-  width: 100%;
-  height: auto;
-}
-
-#magazine .magazine-wide-post img.wp-post-image {
-  float: left;
-  margin: 0 10px 10px 0;
-  width: auto;
-  height: auto;
-}
-
-/*==================================== PRODUCT ==================================================*/
-
-#product_element_section {
-  margin-bottom: 20px;
-}
-
-#product_element_section #cyberchimps_product_media {
-  text-align: center;
-}
-
-#product_element_section .flex-video {
-  margin-bottom: 0;
-}
-
-#product_element_section .cyberchimps-product-link {
-  margin-top: 20px;
-  text-align: center;
-}
 
 /********************************************************************************************************************/
 /****************************************** MEDIA QUERIES ***********************************************************/
