@@ -1,6 +1,6 @@
 /*
 Theme Name: SlickHouse
-Theme URI: http://cyberchimps.com/slickhouse/
+Theme URI:
 Author: CyberChimps
 Author URI: http://cyberchimps.com/
 Description: SlickHouse is a fully Responsive Drag & Drop Starter Wordpress Theme that adds amazing new functionality to your Wordpress website. Featuring Twitter Bootstrap, and responsive touch friendly theme options that work on any device.
@@ -24,7 +24,6 @@ body {
 h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, a, h1.entry-title, h1.entry-title a, h1.entry-title a:hover, h2.entry-title, h2.entry-title a, h2.entry-title a:hover {
   color: #f35d3a;
 }
-
 
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 15px;

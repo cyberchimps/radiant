@@ -172,7 +172,7 @@ function cyberchimps_options_help_header() {
 }
 
 function cyberchimps_options_help_sub_header() {
-	$text = __( 'CyberChimps Professional Responsive WordPress Theme', 'slickhouse' );
+	$text = __( 'CyberChimps Responsive WordPress Theme', 'slickhouse' );
 
 	return $text;
 }
