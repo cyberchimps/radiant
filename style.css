@@ -214,6 +214,10 @@ header #search #searchform {
   text-shadow: none;
 }
 
+.navbar .nav > li > a:hover {
+  color: #ccc;
+}
+
 .main-navigation .nav li ul li ul {
   margin-left: 0;
   list-style: none;
@@ -263,6 +267,11 @@ header #search #searchform {
 }
 
 @media (max-width: 979px) {
+
+	header#cc-header .span7 {
+	  text-align: center;
+	}
+	
   .nav-collapse .nav > li > a, .nav-collapse .dropdown-menu a {
     color: #eeeeee;
     font-weight: normal;
@@ -370,7 +379,6 @@ blockquote cite:before {
 .more-content {
   margin-bottom: 15px;
   padding: 10px;
-  border: 1px solid #f35d3a;
   background: #ffffff;
 }
 
@@ -628,14 +636,12 @@ ol.commentlist li.comment ul.children li.depth-4 {
 }
 
 ol.commentlist li.even {
-  border: 1px solid #F35D3A;
   -moz-border-radius: 0;
   border-radius: 0;
   background: #fafafa;
 }
 
 ol.commentlist li.odd {
-  border: 1px solid #F35D3A;
   -moz-border-radius: 0;
   border-radius: 0;
   background: #ffffff;
@@ -701,7 +707,11 @@ h3.widget-title {
 .widget-container ul li, .widget ul li {
   list-style: none;
   font-size: 14px;
-  line-height: 1.8em;
+  line-height: 1.4em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #eee;
+	padding-bottom: 12px;
 }
 
 table#wp-calendar {
@@ -817,6 +827,27 @@ table#wp-calendar td {
 
 #slider .carousel-control {
   line-height: 30px;
+}
+
+/* WIDGET BOXES ===============================================*/
+
+#boxes_lite_section.container-full-width {
+	background-size: 100%;
+}
+
+.box {
+	margin-bottom: 20px;
+	padding: 20px;
+	background: #fff;
+	opacity: 0.9;
+}
+
+.box p {
+	margin-top: 15px;
+}
+
+.box img {
+	margin-top: 5px;
 }
 
 /*==================================== BOXES ======================================================*/
