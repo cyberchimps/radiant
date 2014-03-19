@@ -16,26 +16,26 @@
 
 <article id="post-0" class="post no-results not-found">
 	<header class="entry-header">
-		<h1 class="entry-title"><?php _e( 'Nothing Found', 'iBlossom' ); ?></h1>
+		<h1 class="entry-title"><?php _e( 'Nothing Found', 'Radiant' ); ?></h1>
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
 		<?php if ( is_home() ) { ?>
 
 			<p><?php printf( '%1$s <a href="%2$s"></a>.', 
-												__( 'Ready to publish your first post?', 'iBlossom' ),
+												__( 'Ready to publish your first post?', 'Radiant' ),
 												admin_url( 'post-new.php' ),
-                        __( 'Get started here', 'iBlossom' )
+                        __( 'Get started here', 'Radiant' )
 											); ?></p>
 
 		<?php } elseif ( is_search() ) { ?>
 
-			<p><?php _e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'iBlossom' ); ?></p>
+			<p><?php _e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'Radiant' ); ?></p>
 			<?php get_search_form(); ?>
 
 		<?php } else { ?>
 
-			<p><?php _e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'iBlossom' ); ?></p>
+			<p><?php _e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'Radiant' ); ?></p>
 			<?php get_search_form(); ?>
 
 		<?php } ?>

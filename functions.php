@@ -17,7 +17,7 @@
 
 // Load text domain.
 function cyberchimps_text_domain() {
-	load_theme_textdomain( 'iBlossom', get_template_directory() . '/inc/languages' );
+	load_theme_textdomain( 'Radiant', get_template_directory() . '/inc/languages' );
 }
 add_action( 'after_setup_theme', 'cyberchimps_text_domain' );
 
@@ -50,7 +50,7 @@ if ( !function_exists( 'cyberchimps_comment' ) ) :
 			case 'trackback' :
 				?>
 				<li class="post pingback">
-				<p><?php _e( 'Pingback:', 'iBlossom' ); ?> <?php comment_author_link(); ?><?php edit_comment_link( __( '(Edit)', 'iBlossom' ), ' ' ); ?></p>
+				<p><?php _e( 'Pingback:', 'Radiant' ); ?> <?php comment_author_link(); ?><?php edit_comment_link( __( '(Edit)', 'Radiant' ), ' ' ); ?></p>
 				<?php
 				break;
 			default :
@@ -60,11 +60,11 @@ if ( !function_exists( 'cyberchimps_comment' ) ) :
 						<footer>
 							<div class="comment-author reviewer vcard">
 								<?php echo get_avatar( $comment, 40 ); ?>
-								<?php printf( '%s <span class="says">' . __( 'says:', 'iBlossom' ) . '</span>', sprintf( '<cite class="fn">%s</cite>', get_comment_author_link() ) ); ?>
+								<?php printf( '%s <span class="says">' . __( 'says:', 'Radiant' ) . '</span>', sprintf( '<cite class="fn">%s</cite>', get_comment_author_link() ) ); ?>
 							</div>
 							<!-- .comment-author .vcard -->
 							<?php if ( $comment->comment_approved == '0' ) : ?>
-								<em><?php _e( 'Your comment is awaiting moderation.', 'iBlossom' ); ?></em>
+								<em><?php _e( 'Your comment is awaiting moderation.', 'Radiant' ); ?></em>
 								<br/>
 							<?php endif; ?>
 
@@ -73,10 +73,10 @@ if ( !function_exists( 'cyberchimps_comment' ) ) :
 									<time pubdate datetime="<?php comment_time( 'c' ); ?>">
 										<?php
 										/* translators: 1: date, 2: time */
-										printf( __( '%1$s at %2$s', 'iBlossom' ), get_comment_date(), get_comment_time() ); ?>
+										printf( __( '%1$s at %2$s', 'Radiant' ), get_comment_date(), get_comment_time() ); ?>
 									</time>
 								</a>
-								<?php edit_comment_link( __( '(Edit)', 'iBlossom' ), ' ' );
+								<?php edit_comment_link( __( '(Edit)', 'Radiant' ), ' ' );
 								?>
 							</div>
 							<!-- .comment-meta .commentmetadata -->
@@ -125,21 +125,21 @@ function cyberchimps_theme_check() {
 
 //Theme Name
 function cyberchimps_options_theme_name() {
-	$text = 'iBlossom';
+	$text = 'Radiant';
 
 	return $text;
 }
 
 //Theme Pro Name
 function cyberchimps_upgrade_bar_pro_title() {
-	$text = 'iBlossom Pro';
+	$text = 'Radiant Pro';
 
 	return $text;
 }
 
 //Upgrade link
 function cyberchimps_upgrade_bar_pro_link() {
-	$url = 'http://cyberchimps.com/store/iBlossom-pro';
+	$url = 'http://cyberchimps.com/store/Radiant-pro';
 
 	return $url;
 }
@@ -153,7 +153,7 @@ function cyberchimps_options_documentation_url() {
 
 // Support Forum URL
 function cyberchimps_options_support_forum() {
-	$url = 'http://cyberchimps.com/forum/free/iBlossom/';
+	$url = 'http://cyberchimps.com/forum/free/Radiant/';
 
 	return $url;
 }
@@ -166,13 +166,13 @@ add_filter( 'cyberchimps_support_forum', 'cyberchimps_options_support_forum' );
 
 // Help Section
 function cyberchimps_options_help_header() {
-	$text = 'iBlossom';
+	$text = 'Radiant';
 
 	return $text;
 }
 
 function cyberchimps_options_help_sub_header() {
-	$text = __( 'CyberChimps Responsive WordPress Theme', 'iBlossom' );
+	$text = __( 'CyberChimps Responsive WordPress Theme', 'Radiant' );
 
 	return $text;
 }

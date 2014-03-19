@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: iBlossom\n"
+"Project-Id-Version: Radiant\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-02-28 13:47:05 UTC\n"
 "PO-Revision-Date: 2014-03-03 17:01+0530\n"

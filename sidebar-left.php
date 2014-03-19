@@ -22,41 +22,41 @@
 	<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar( 'sidebar-left' ) ) : ?>
 		
 		<div class="widget-container">    
-			<h3 class="widget-title"><?php _e('Pages', 'iBlossom' ); ?></h3>
+			<h3 class="widget-title"><?php _e('Pages', 'Radiant' ); ?></h3>
 			<ul>
     			<?php wp_list_pages('title_li=' ); ?>
     		</ul>
     	</div>
     
 		<div class="widget-container">    
-    		<h3 class="widget-title"><?php _e( 'Archives', 'iBlossom' ); ?></h3>
+    		<h3 class="widget-title"><?php _e( 'Archives', 'Radiant' ); ?></h3>
     		<ul>
     			<?php wp_get_archives('type=monthly'); ?>
     		</ul>
     	</div>
         
 		<div class="widget-container">
-			<h3 class="widget-title"><?php _e('Categories', 'iBlossom' ); ?></h3>
+			<h3 class="widget-title"><?php _e('Categories', 'Radiant' ); ?></h3>
 			<ul>
 				<?php wp_list_categories('show_count=1&title_li='); ?>
 			</ul>
         </div>
         
         <div class="widget-container">
-        	<h3 class="widget-title"><?php _e('WordPress', 'iBlossom' ); ?></h3>
+        	<h3 class="widget-title"><?php _e('WordPress', 'Radiant' ); ?></h3>
         	<ul>
         		<?php wp_register(); ?>
         		<li><?php wp_loginout(); ?></li>
-        		<li><a href="<?php echo esc_url( 'http://wordpress.org/' ); ?>" target="_blank" title="<?php esc_attr_e('Powered by WordPress, state-of-the-art semantic personal publishing platform.', 'iBlossom'); ?>"> <?php _e('WordPress', 'iBlossom' ); ?></a></li>
+        		<li><a href="<?php echo esc_url( 'http://wordpress.org/' ); ?>" target="_blank" title="<?php esc_attr_e('Powered by WordPress, state-of-the-art semantic personal publishing platform.', 'Radiant'); ?>"> <?php _e('WordPress', 'Radiant' ); ?></a></li>
         		<?php wp_meta(); ?>
     		</ul>
 		</div>
 		
 		<div class="widget-container">
-			<h3 class="widget-title"><?php _e('Subscribe', 'iBlossom' ); ?></h3>
+			<h3 class="widget-title"><?php _e('Subscribe', 'Radiant' ); ?></h3>
 			<ul>
-				<li><a href="<?php bloginfo('rss2_url'); ?>"><?php _e('Entries (RSS)', 'iBlossom' ); ?></a></li>
-				<li><a href="<?php bloginfo('comments_rss2_url'); ?>"><?php _e('Comments (RSS)', 'iBlossom' ); ?></a></li>
+				<li><a href="<?php bloginfo('rss2_url'); ?>"><?php _e('Entries (RSS)', 'Radiant' ); ?></a></li>
+				<li><a href="<?php bloginfo('comments_rss2_url'); ?>"><?php _e('Comments (RSS)', 'Radiant' ); ?></a></li>
 			</ul>
 		</div>
 		
