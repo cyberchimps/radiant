@@ -17,7 +17,7 @@
 
 // Load text domain.
 function cyberchimps_text_domain() {
-	load_theme_textdomain( 'Radiant', get_template_directory() . '/inc/languages' );
+	load_theme_textdomain( 'radiant', get_template_directory() . '/inc/languages' );
 }
 add_action( 'after_setup_theme', 'cyberchimps_text_domain' );
 
@@ -298,3 +298,11 @@ function cyberchimps_blog_draganddrop_defaults() {
 }
 
 add_filter( 'cyberchimps_elements_draganddrop_defaults', 'cyberchimps_blog_draganddrop_defaults' );
+
+// Customize social icons.
+function cyberchimps_social_icon_options( $options ) {
+	$options['default'] = get_template_directory_uri() . '/images/social/default.png';
+
+	return $options;
+}
+add_filter( 'cyberchimps_social_icon_options', 'cyberchimps_social_icon_options' );

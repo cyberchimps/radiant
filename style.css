@@ -5,7 +5,7 @@ Author: CyberChimps
 Author URI: http://cyberchimps.com/
 Description: Radiant is a fully Responsive Drag & Drop Starter Wordpress Theme that adds amazing new functionality to your Wordpress website. Featuring Twitter Bootstrap, and responsive touch friendly theme options that work on any device.
 Version: 1.0.0.0
-Tags:  orange, white, light, two-columns, right-sidebar, fixed-layout, fluid-layout, responsive-layout, custom-background, custom-colors, custom-menu, featured-images, post-formats, theme-options, sticky-post, colorful, elegant
+Tags:  orange, white, light, two-columns, right-sidebar, fixed-layout, fluid-layout, responsive-layout, custom-background, custom-colors, custom-menu, featured-images, post-formats, theme-options, sticky-post
 License: GNU General Public License
 License URI: http://www.opensource.org/licenses/gpl-license.php GPL v3.0 (or later)
 */
@@ -134,17 +134,31 @@ header {
 /*======================================= SOCIAL ==============================================*/
 
 #cc-header #social a {
-  margin-left: 5px;
-  margin-top: 12px;
+	margin-left: 5px;
+	margin-top: 12px;
 }
 
 .icons {
-  margin-top: 15px;
+	margin-top: 15px;
 }
 
 #social .icons img {
-  height: 32px;
-  width: 32px;
+	height: 32px;
+	width: 32px;
+}
+
+.default-icons a.symbol {
+	border-radius: 50%;
+	padding: 5px 0px;
+	color: #f35d39;
+	background: #f6f7f6;
+	border: 1px dotted #f35d39;
+	-moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.23);
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.23);
+}
+
+.default-icons a.symbol:hover {
+	opacity: .8;
 }
 
 /*======================================= DETAILS =============================================*/
