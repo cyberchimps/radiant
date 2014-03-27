@@ -1,6 +1,9 @@
 Radiant Changelog
 
 ****************************
+Version 1.0.0.2 (3-27-14)
+- Updated Elements Translation.
+
 Version 1.0.0.1 (3-21-13)
 - Removed admin welcome notice on theme active.
 
