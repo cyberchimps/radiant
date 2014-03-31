@@ -1,4 +1,4 @@
-Radiant responsive Wordpress theme
+Radiant responsive WordPress theme
 ====================================
 
 - Radiant

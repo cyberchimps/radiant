@@ -108,7 +108,7 @@ msgstr "WordPress"
 #: ../../sidebar.php
 msgid ""
 "Powered by WordPress, state-of-the-art semantic personal publishing platform."
-msgstr "Websiden bruger Wordpress, et Open Source værktøj i højeste kvalitet."
+msgstr "Websiden bruger WordPress, et Open Source værktøj i højeste kvalitet."
 
 #: ../../functions.php
 msgid "Pingback:"
