@@ -40,7 +40,7 @@ get_header(); ?>
 								<div class="entry-meta">
 									<?php
 										$metadata = wp_get_attachment_metadata();
-										printf( __( 'Published', 'Radiant' ) . ' <span class="entry-date"><time class="entry-date" datetime="%1$s">%2$s</time></span> - ' . __( 'size', 'Radiant' ) . ': <a href="%3$s" title="Link to full-size image">%4$s &times; %5$s</a> ' . __( 'in', 'Radiant' ) . ' <a href="%6$s" title="Return to %7$s" rel="gallery">%7$s</a>',
+										printf( __( 'Published', 'radiant' ) . ' <span class="entry-date"><time class="entry-date" datetime="%1$s">%2$s</time></span> - ' . __( 'size', 'radiant' ) . ': <a href="%3$s" title="Link to full-size image">%4$s &times; %5$s</a> ' . __( 'in', 'radiant' ) . ' <a href="%6$s" title="Return to %7$s" rel="gallery">%7$s</a>',
 											esc_attr( get_the_date( 'c' ) ),
 											esc_html( get_the_date() ),
 											wp_get_attachment_url(),
@@ -50,12 +50,12 @@ get_header(); ?>
 											get_the_title( $post->post_parent )
 										);
 									?>
-									<?php edit_post_link( __( 'Edit', 'Radiant' ), '<span class="sep"> | </span> <span class="edit-link">', '</span>' ); ?>
+									<?php edit_post_link( __( 'Edit', 'radiant' ), '<span class="sep"> | </span> <span class="edit-link">', '</span>' ); ?>
 								</div><!-- .entry-meta -->
 			
 								<nav id="image-navigation">
-									<span class="previous-image"><?php previous_image_link( false, '&larr; ' . __( 'Previous', 'Radiant' ) ); ?></span>
-									<span class="next-image"><?php next_image_link( false, __( 'Next', 'Radiant' ) . ' &rarr;' ); ?></span>
+									<span class="previous-image"><?php previous_image_link( false, '&larr; ' . __( 'Previous', 'radiant' ) ); ?></span>
+									<span class="next-image"><?php next_image_link( false, __( 'Next', 'radiant' ) . ' &rarr;' ); ?></span>
 								</nav><!-- #image-navigation -->
 							</header><!-- .entry-header -->
 			
@@ -78,7 +78,7 @@ get_header(); ?>
 								</div><!-- .entry-attachment -->
 			
 								<?php the_content(); ?>
-								<?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'Radiant' ), 'after' => '</div>' ) ); ?>
+								<?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'radiant' ), 'after' => '</div>' ) ); ?>
 			
 							</div><!-- .entry-content -->
 							
@@ -136,16 +136,16 @@ get_header(); ?>
 					  
 							<footer class="entry-meta">
 								<?php if ( comments_open() && pings_open() ) : // Comments and trackbacks open ?>
-									<?php printf( '<a class="comment-link" href="#respond" title="Post a comment">' . __( 'Post a comment', 'Radiant' ) . '</a> ' . __( 'or leave a trackback', 'Radiant' ) . ': <a class="trackback-link" href="%s" title="Trackback URL for your post" rel="trackback">' . __( 'Trackback URL', 'Radiant' ) . '</a>.', get_trackback_url() ); ?>
+									<?php printf( '<a class="comment-link" href="#respond" title="Post a comment">' . __( 'Post a comment', 'radiant' ) . '</a> ' . __( 'or leave a trackback', 'radiant' ) . ': <a class="trackback-link" href="%s" title="Trackback URL for your post" rel="trackback">' . __( 'Trackback URL', 'radiant' ) . '</a>.', get_trackback_url() ); ?>
 								<?php elseif ( ! comments_open() && pings_open() ) : // Only trackbacks open ?>
-									<?php printf( __( 'Comments are closed, but you can leave a trackback: ', 'Radiant' ) . '<a class="trackback-link" href="%s" title="Trackback URL for your post" rel="trackback">' . __( 'Trackback URL', 'Radiant' ) . '</a>.', get_trackback_url() ); ?>
+									<?php printf( __( 'Comments are closed, but you can leave a trackback: ', 'radiant' ) . '<a class="trackback-link" href="%s" title="Trackback URL for your post" rel="trackback">' . __( 'Trackback URL', 'radiant' ) . '</a>.', get_trackback_url() ); ?>
 								<?php elseif ( comments_open() && ! pings_open() ) : // Only comments open ?>
-									<?php printf( __( 'Trackbacks are closed, but you can %s', 'Radiant' ),
-													'<a class="comment-link" href="#respond" title="Post a comment">' . __( 'post a comment', 'Radiant' ) . '</a>.' ); ?>
+									<?php printf( __( 'Trackbacks are closed, but you can %s', 'radiant' ),
+													'<a class="comment-link" href="#respond" title="Post a comment">' . __( 'post a comment', 'radiant' ) . '</a>.' ); ?>
 								<?php elseif ( ! comments_open() && ! pings_open() ) : // Comments and trackbacks closed ?>
-									<?php _e( 'Both comments and trackbacks are currently closed.', 'Radiant' ); ?>
+									<?php _e( 'Both comments and trackbacks are currently closed.', 'radiant' ); ?>
 								<?php endif; ?>
-								<?php edit_post_link( __( 'Edit', 'Radiant' ), ' <span class="edit-link">', '</span>' ); ?>
+								<?php edit_post_link( __( 'Edit', 'radiant' ), ' <span class="edit-link">', '</span>' ); ?>
 							</footer><!-- .entry-meta -->
 						</article><!-- #post-<?php the_ID(); ?> -->
 			

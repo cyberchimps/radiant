@@ -50,7 +50,7 @@ if ( !function_exists( 'cyberchimps_comment' ) ) :
 			case 'trackback' :
 				?>
 				<li class="post pingback">
-				<p><?php _e( 'Pingback:', 'Radiant' ); ?> <?php comment_author_link(); ?><?php edit_comment_link( __( '(Edit)', 'Radiant' ), ' ' ); ?></p>
+				<p><?php _e( 'Pingback:', 'radiant' ); ?> <?php comment_author_link(); ?><?php edit_comment_link( __( '(Edit)', 'radiant' ), ' ' ); ?></p>
 				<?php
 				break;
 			default :
@@ -60,11 +60,11 @@ if ( !function_exists( 'cyberchimps_comment' ) ) :
 						<footer>
 							<div class="comment-author reviewer vcard">
 								<?php echo get_avatar( $comment, 40 ); ?>
-								<?php printf( '%s <span class="says">' . __( 'says:', 'Radiant' ) . '</span>', sprintf( '<cite class="fn">%s</cite>', get_comment_author_link() ) ); ?>
+								<?php printf( '%s <span class="says">' . __( 'says:', 'radiant' ) . '</span>', sprintf( '<cite class="fn">%s</cite>', get_comment_author_link() ) ); ?>
 							</div>
 							<!-- .comment-author .vcard -->
 							<?php if ( $comment->comment_approved == '0' ) : ?>
-								<em><?php _e( 'Your comment is awaiting moderation.', 'Radiant' ); ?></em>
+								<em><?php _e( 'Your comment is awaiting moderation.', 'radiant' ); ?></em>
 								<br/>
 							<?php endif; ?>
 
@@ -73,10 +73,10 @@ if ( !function_exists( 'cyberchimps_comment' ) ) :
 									<time pubdate datetime="<?php comment_time( 'c' ); ?>">
 										<?php
 										/* translators: 1: date, 2: time */
-										printf( __( '%1$s at %2$s', 'Radiant' ), get_comment_date(), get_comment_time() ); ?>
+										printf( __( '%1$s at %2$s', 'radiant' ), get_comment_date(), get_comment_time() ); ?>
 									</time>
 								</a>
-								<?php edit_comment_link( __( '(Edit)', 'Radiant' ), ' ' );
+								<?php edit_comment_link( __( '(Edit)', 'radiant' ), ' ' );
 								?>
 							</div>
 							<!-- .comment-meta .commentmetadata -->
@@ -139,7 +139,7 @@ function cyberchimps_upgrade_bar_pro_title() {
 
 //Upgrade link
 function cyberchimps_upgrade_bar_pro_link() {
-	$url = 'http://cyberchimps.com/store/Radiant-pro';
+	$url = 'http://cyberchimps.com/store/radiant-pro';
 
 	return $url;
 }
@@ -153,7 +153,7 @@ function cyberchimps_options_documentation_url() {
 
 // Support Forum URL
 function cyberchimps_options_support_forum() {
-	$url = 'http://cyberchimps.com/forum/free/Radiant/';
+	$url = 'http://cyberchimps.com/forum/free/radiant/';
 
 	return $url;
 }
@@ -172,7 +172,7 @@ function cyberchimps_options_help_header() {
 }
 
 function cyberchimps_options_help_sub_header() {
-	$text = __( 'CyberChimps Responsive WordPress Theme', 'Radiant' );
+	$text = __( 'CyberChimps Responsive WordPress Theme', 'radiant' );
 
 	return $text;
 }
