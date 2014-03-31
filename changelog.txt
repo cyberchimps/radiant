@@ -1,6 +1,11 @@
 Radiant Changelog
 
 ****************************
+Version 1.0.0.3 (3-31-14)
+- Changed text domain to lowercase.
+- Fixed WordPress spelling.
+- Removed wp_register_style(or script) for local css/js.
+
 Version 1.0.0.2 (3-27-14)
 - Updated Elements Translation.
 
