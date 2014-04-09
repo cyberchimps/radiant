@@ -1,6 +1,9 @@
 Radiant Changelog
 
 ****************************
+Version 1.0.0.6 (4-9-14)
+- No change( Had to upload again as last upload was having 0KB zip)
+
 Version 1.0.0.5 (4-9-14)
 -Added upgrade button to the free theme customizer.
 -Fixed Vimeo video responsiveness.
