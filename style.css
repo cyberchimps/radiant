@@ -17,8 +17,8 @@ License URI: http://www.opensource.org/licenses/gpl-license.php GPL v3.0 (or lat
 @import url(http://fonts.googleapis.com/css?family=Great+Vibes);
 
 body {
-  color: #666;
   background: url(images/branding/bg.png);
+  color: #666;
 }
 
 h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, a, h1.entry-title, h1.entry-title a, h1.entry-title a:hover, h2.entry-title, h2.entry-title a, h2.entry-title a:hover {
@@ -35,9 +35,9 @@ h1.entry-title, h1.entry-title a, h2.entry-title, h2.entry-title a {
 }
 
 h2.site-title, h2.site-title a {
-  font-size: 60px;
   color: #fff;
   text-decoration: none;
+  font-size: 60px;
 }
 
 h2.box-widget-title {
@@ -134,8 +134,8 @@ header {
 /*======================================= SOCIAL ==============================================*/
 
 #cc-header #social a {
-	margin-left: 5px;
 	margin-top: 12px;
+	margin-left: 5px;
 }
 
 .icons {
@@ -143,18 +143,17 @@ header {
 }
 
 #social .icons img {
-	height: 32px;
 	width: 32px;
+	height: 32px;
 }
 
 .default-icons a.symbol {
-	border-radius: 50%;
-	padding: 5px 0px;
-	color: #f35d39;
-	background: #f6f7f6;
 	border: 1px dotted #f35d39;
+	border-radius: 49%;
+	background: #f6f7f6;
 	-moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.23);
 	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.23);
+	color: #f35d39;
 }
 
 .default-icons a.symbol:hover {
@@ -196,9 +195,9 @@ header #search #searchform {
 }
 
 .navbar-search .search-query {
+  margin: 2px 6px 2px 0;
   border: 0 none;
   border-radius: 0;
-  margin: 2px 6px 2px 0;
 }
 
 /********************************************************************************************************************/
@@ -214,18 +213,18 @@ header #search #searchform {
 }
 
 .main-navigation .navbar-inner {
-  background: #f35d3a;
   padding: 0;
   border: 1px solid #f35d3a;
   -webkit-border-radius: 0;
   border-radius: 0;
+  background: #f35d3a;
   box-shadow: none;
 }
 
 .navbar .nav > li > a {
-  font-size: 16px;
   color: #fff;
   text-shadow: none;
+  font-size: 16px;
 }
 
 .navbar .nav > li > a:hover {
@@ -271,13 +270,13 @@ header #search #searchform {
 }
 
 .navbar .nav li.dropdown > .dropdown-toggle .caret {
-  border-bottom-color: #ffffff;
   border-top-color: #ffffff;
+  border-bottom-color: #ffffff;
 }
 
 .dropdown-menu .active > a, .dropdown-menu .active > a:hover {
-  background-image: none;
   background-color: #f35d3a;
+  background-image: none;
 }
 
 @media (max-width: 979px) {
@@ -685,12 +684,12 @@ ol.commentlist li.odd {
 }
 
 input[type="submit"], .button {
-  background: none repeat scroll 0 0 #F35D3A;
-  border: 0 none;
-  color: #FFFFFF;
-  font-size: 15px;
   padding: 10px 15px;
   width: auto;
+  border: 0 none;
+  background: none repeat scroll 0 0 #F35D3A;
+  color: #FFFFFF;
+  font-size: 15px;
 }
 
 .avatar {
@@ -719,13 +718,13 @@ h3.widget-title {
 }
 
 .widget-container ul li, .widget ul li {
-  list-style: none;
-  font-size: 14px;
-  line-height: 1.4em;
   margin-top: 10px;
   margin-bottom: 10px;
+  padding-bottom: 12px;
   border-bottom: 1px solid #eee;
-	padding-bottom: 12px;
+  list-style: none;
+  font-size: 14px;
+	line-height: 1.4em;
 }
 
 table#wp-calendar {
