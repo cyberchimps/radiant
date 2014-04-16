@@ -1,9 +1,12 @@
 Radiant Changelog
 
 ****************************
-Version 1.0.0.7 (4-16-14)
+Version 1.0.0.8 (4-16-14)
 - Changed social font icons to font awesome.
 - Removed unwanted function_exists() conditional wrapper.
+
+Version 1.0.0.7 (4-10-14)
+- Removed admin bar link to theme options.
 
 Version 1.0.0.6 (4-9-14)
 - No change( Had to upload again as last upload was having 0KB zip)
