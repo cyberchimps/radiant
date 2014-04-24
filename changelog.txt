@@ -1,6 +1,11 @@
 Radiant Changelog
 
 ****************************
+Version 1.0.0.9 (4-24-14)
+- Added recommendation for clef plugin.
+- Updated translations.
+- Youtube video fixed.
+
 Version 1.0.0.8 (4-16-14)
 - Changed social font icons to font awesome.
 - Removed unwanted function_exists() conditional wrapper.
