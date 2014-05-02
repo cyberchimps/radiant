@@ -1,6 +1,9 @@
 Radiant Changelog
 
 ****************************
+Version 1.0.0.10 (5-2-14)
+- Fixed byline toggle issue. 
+
 Version 1.0.0.9 (4-24-14)
 - Added recommendation for clef plugin.
 - Updated translations.
