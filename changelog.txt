@@ -1,6 +1,15 @@
 Radiant Changelog
 
 ****************************
+Version 1.0.0.12 (5-16-14)
+- Correct spelling of CyberChimps/CSS.
+- Change text for Google font field.
+- Added cyberchimps_ prefix to couple of functions.
+- Changed CyberChimps logo on theme options page.
+- Changed "alt" text of logo to the site name instead of "logo".
+- Regenerated ".mo" files as they were 0KB each before, hence breaking the translation.
+-  iPad/iPhone levell fix: header/footer are made to be full width in ipad level and below. Social icons are centered at iPhone level.
+
 Version 1.0.0.11 (5-9-14)
 - Fixed W3C validator error issue with IE compatibility meta tags.
 - Fixed missing image error: removed unused function.
