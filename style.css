@@ -930,6 +930,21 @@ table#wp-calendar td {
 /****************************************** MEDIA QUERIES ***********************************************************/
 /********************************************************************************************************************/
 
+/*==================================== TABLETS ===================================================*/
+
+@media (max-width: 767px) {
+
+	body {
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+
+	.container-full-width .container {
+		margin: 0px 20px;
+	}
+}
+
+
 /*==================================== PHONES ====================================================*/
 
 @media (max-width: 480px) {
@@ -956,4 +971,12 @@ table#wp-calendar td {
   header#cc-header .span5 #searchform {
     float: none;
   }
+  
+	header#cc-header #register {
+		text-align: center;
+	}
+	
+	header#cc-header #register  #social, header#cc-header #register  #social a.symbol{
+		float: none;
+	}
 }
