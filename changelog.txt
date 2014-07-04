@@ -2,6 +2,9 @@ Radiant Changelog
 
 ****************************
 
+Version 1.0.0.19 (7-04-14)
+- Added option for Instagram Icon.
+
 Version 1.0.0.18 (6-27-14)
 - Core Translation Updated.
 
