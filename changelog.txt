@@ -2,6 +2,9 @@ Radiant Changelog
 
 ****************************
 
+Version 1.0.0.25 (9-08-14)
+- Added iFeature slider to plugin suggestion list.
+
 Version 1.0.0.24 (8-22-14)
 - Updated Translations.
 
