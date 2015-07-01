@@ -2,6 +2,9 @@ Radiant Changelog
 
 ****************************
 
+Version 1.0.0.30 (7-01-15)
+- Fixed translation issue in default widgets for german language.
+
 Version 1.0.0.29 (1-23-15)
 - Fixed conflict between slider free and pro plugin.
 - Added new plugin suggestion.
