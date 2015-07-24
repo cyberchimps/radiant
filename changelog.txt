@@ -2,6 +2,9 @@ Radiant Changelog
 
 ****************************
 
+Version 1.0.0.32 (21-07-15)
+- Minor bug fixes
+
 Version 1.0.0.31 (16-07-15)
 - Change in theme customizer as per wordpress.org guidelines
 
