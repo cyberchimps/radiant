@@ -2,6 +2,9 @@ Radiant Changelog
 
 ****************************
 
+Version 1.0.0.33 (28-07-15)
+- Solved widget update issue
+
 Version 1.0.0.32 (21-07-15)
 - Minor bug fixes
 
