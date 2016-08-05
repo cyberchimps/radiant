@@ -1,6 +1,8 @@
 Radiant Changelog
 
 ****************************
+Version 1.0.0.34 (5-08-16)
+- Updated as per latest Theme Check guidelines
 
 Version 1.0.0.33 (28-07-15)
 - Solved widget update issue
