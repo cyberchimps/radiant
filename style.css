@@ -39,6 +39,7 @@ h2.site-title, h2.site-title a {
   color: #fff;
   text-decoration: none;
   font-size: 60px;
+  line-height: 60px;
 }
 
 h2.box-widget-title {
@@ -980,4 +981,7 @@ table#wp-calendar td {
 	header#cc-header #register  #social, header#cc-header #register  #social a.symbol{
 		float: none;
 	}
+}
+select{
+	width: 203px;
 }
