@@ -2,7 +2,7 @@ Radiant Changelog
 
 ****************************
 Version 1.1 (10-05-16)
-- Fixed display issue of search text.
+- Fixed display issue of searchbar and dropdown in sidebar.
 
 Version 1.0.0.34 (5-08-16)
 - Updated as per latest Theme Check guidelines
