@@ -288,10 +288,10 @@ add_filter( 'cyberchimps_typography_heading_defaults', 'cyberchimps_typography_h
 
 function cyberchimps_blog_draganddrop_defaults() {
 	$options = array(
-		'slider_lite'    => __( 'Slider Lite', 'cyberchimps_core' ),
-		'boxes_lite'     => __( 'Boxes', 'cyberchimps_core' ),
-		'portfolio_lite' => __( 'Portfolio Lite', 'cyberchimps_core' ),
-		'blog_post_page' => __( 'Post Page', 'cyberchimps_core' ),
+		'slider_lite'    => __( 'Slider Lite', 'radiant' ),
+		'boxes_lite'     => __( 'Boxes', 'radiant' ),
+		'portfolio_lite' => __( 'Portfolio Lite', 'radiant' ),
+		'blog_post_page' => __( 'Post Page', 'radiant' ),
 	);
 
 	return $options;
@@ -315,7 +315,7 @@ function cyberchimps_radiant_upgrade_bar(){
 	<div class="upgrade-callout">
 		<p><img src="<?php echo get_template_directory_uri(); ?>/cyberchimps/options/lib/images/chimp.png" alt="CyberChimps"/>
 			<?php printf(
-				__( 'Welcome to Radiant! Get 30%% off on %1$s using Coupon Code <span style="color:red">RADIANT30</span>', 'cyberchimps_core' ),
+				__( 'Welcome to Radiant! Get 30%% off on %1$s using Coupon Code <span style="color:red">RADIANT30</span>', 'radiant' ),
 				'<a href="' . $upgrade_link . '" target="_blank" title="' . $pro_title . '">' . $pro_title . '</a> '
 			); ?>
 		</p>
