@@ -1,6 +1,10 @@
 Radiant Changelog
 
 ****************************
+Version 1.2 (04-19-17)
+- Fixed issue with PHP version 7.1
+- Fixed issue with loading google fonts (used protocol relative link)
+
 Version 1.1 (10-06-16)
 - Fixed display issue of searchbar and dropdown in sidebar.
 
