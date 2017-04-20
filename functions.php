@@ -341,6 +341,16 @@ function cyberchimps_radiant_upgrade_bar(){
 		</div>
 	
 	</div>
+<h4 class="notice notice-info is-dismissible" style="margin-top:15px;">
+<p>
+<?php 
+	$utm_link="https://cyberchimps.com/free-download-50-stock-images-use-please/?utm_source=radiant";
+ 	$utm_text="FREE - Download CyberChimps' Pack of 50 High-Resolution Stock Images Now";
+	printf('<a href="' . $utm_link . '" target="_blank" style="font-size:18px;">' . $utm_text . '</a> ');
+?>	 
+</p>
+</h4>
+
 <?php	
 }
 
