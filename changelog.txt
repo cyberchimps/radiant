@@ -1,6 +1,9 @@
 Radiant Changelog
 
 ****************************
+Version 1.3 (07-20-17)
+- Added visible edit links in the customizer preview
+
 Version 1.2 (04-20-17)
 - Fixed issue with PHP version 7.1
 - Fixed issue with loading google fonts (used protocol relative link)
