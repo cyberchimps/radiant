@@ -371,7 +371,7 @@ function radiant_title_setup()
 }
 add_action( 'after_setup_theme', 'radiant_title_setup' );
 
-function fine_customize_edit_links( $wp_customize ) {
+function radiant_customize_edit_links( $wp_customize ) {
 
 
    $wp_customize->selective_refresh->add_partial( 'blogname', array(
@@ -411,11 +411,11 @@ function fine_customize_edit_links( $wp_customize ) {
 	) );
 
 }
-add_action( 'customize_register', 'fine_customize_edit_links' );
+add_action( 'customize_register', 'radiant_customize_edit_links' );
 add_theme_support( 'customize-selective-refresh-widgets' );
 
-add_action( 'admin_notices', 'fine_rating_notice' );
-function fine_rating_notice()
+add_action( 'admin_notices', 'radiant_admin_notices' );
+function radiant_admin_notices()
 {
 	$admin_check_screen = get_admin_page_title();
 
