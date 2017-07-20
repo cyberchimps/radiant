@@ -409,6 +409,10 @@ function radiant_customize_edit_links( $wp_customize ) {
 	$wp_customize->selective_refresh->add_partial( 'cyberchimps_options[blog_title]', array(
 		'selector' => '.page-title'
 	) );
+	
+	$wp_customize->selective_refresh->add_partial( 'cyberchimps_options[footer_show_toggle]', array(
+		'selector' => '#footer-widget-container'
+	) );
 
 }
 add_action( 'customize_register', 'radiant_customize_edit_links' );
