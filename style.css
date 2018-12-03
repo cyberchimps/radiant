@@ -1278,24 +1278,24 @@ div.wp-block-cover.aligncenter {
 	color: #c80a00;
 }
 
-.has-text-background-color{
+.has-textdefault-background-color{
 	background-color: #666;
 }
-.has-text-color{
+.has-textdefault-color{
 	color: #666;
 }
 
-.has-link-background-color{
+.has-linkdefault-background-color{
 	background-color: #f35d3a;
 }
-.has-link-color{
+.has-linkdefault-color{
 	color: #f35d3a;
 }
 
-.has-hover-background-color{
+.has-hoverdefault-background-color{
 	background-color: #ba3e2e;
 }
-.has-hover-color{
+.has-hoverdefault-color{
 	color: #ba3e2e;
 }
 .wp-block-image.is-resized {

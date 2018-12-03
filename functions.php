@@ -411,19 +411,19 @@ function radiant_title_setup()
 			),
 			array(
 				'name'  => __( 'Text', 'radiant' ),
-				'slug'  => 'text',
+				'slug'  => 'textdefault',
 				'color' => '#666',
 			),
 
 			array(
 				'name'  => __( 'Link', 'radiant' ),
-				'slug'  => 'link',
+				'slug'  => 'linkdefault',
 				'color' => '#f35d3a',
 			),
 
 			array(
 				'name'  => __( 'Hover', 'radiant' ),
-				'slug'  => 'hover',
+				'slug'  => 'hoverdefault',
 				'color' => '#ba3e2e',
 			),
 		)
