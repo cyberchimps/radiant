@@ -1,7 +1,7 @@
 Radiant Changelog
 
 ****************************
-Version 1.4 (11-30-18)
+Version 1.4 (12-03-18)
 - Added Gutenberg compatibility
 - Added testimonial and contact us elements
 
