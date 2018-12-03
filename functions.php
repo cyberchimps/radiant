@@ -24,6 +24,7 @@ add_action( 'after_setup_theme', 'cyberchimps_text_domain' );
 // Load Core
 require_once( get_template_directory() . '/cyberchimps/init.php' );
 require( get_template_directory() . '/inc/admin-about.php' );
+require_once( get_template_directory() . '/inc/testimonial_template.php' );
 
 // Set the content width based on the theme's design and stylesheet.
 if ( !isset( $content_width ) ) {
@@ -289,9 +290,6 @@ add_filter( 'cyberchimps_typography_heading_defaults', 'cyberchimps_typography_h
 
 function cyberchimps_blog_draganddrop_defaults() {
 	$options = array(
-		'slider_lite'    => __( 'Slider Lite', 'radiant' ),
-		'boxes_lite'     => __( 'Boxes', 'radiant' ),
-		'portfolio_lite' => __( 'Portfolio Lite', 'radiant' ),
 		'blog_post_page' => __( 'Post Page', 'radiant' ),
 	);
 
@@ -367,7 +365,69 @@ if( cyberchimps_theme_check() == 'free' ) {
 // enabling theme support for title tag
 function radiant_title_setup()
 {
+
+	// enabling theme support for title tag.
 	add_theme_support( 'title-tag' );
+
+	// Add support for full and wide align images.
+	add_theme_support( 'align-wide' );
+
+	// Adds support for editor color palette.
+	add_theme_support(
+		'editor-color-palette',
+		array(
+			array(
+				'name'  => __( 'Gray', 'radiant' ),
+				'slug'  => 'gray',
+				'color' => '#777',
+			),
+			array(
+				'name'  => __( 'Light Gray', 'radiant' ),
+				'slug'  => 'light-gray',
+				'color' => '#f5f5f5',
+			),
+			array(
+				'name'  => __( 'Black', 'radiant' ),
+				'slug'  => 'black',
+				'color' => '#000000',
+			),
+
+			array(
+				'name'  => __( 'Blue', 'radiant' ),
+				'slug'  => 'blue',
+				'color' => '#0286cf',
+			),
+
+			array(
+				'name'  => __( 'Legacy', 'radiant' ),
+				'slug'  => 'legacy',
+				'color' => '#b6b6b6',
+			),
+
+			array(
+				'name'  => __( 'Red', 'radiant' ),
+				'slug'  => 'red',
+				'color' => '#c80a00',
+			),
+			array(
+				'name'  => __( 'Text', 'radiant' ),
+				'slug'  => 'textdefault',
+				'color' => '#666',
+			),
+
+			array(
+				'name'  => __( 'Link', 'radiant' ),
+				'slug'  => 'linkdefault',
+				'color' => '#f35d3a',
+			),
+
+			array(
+				'name'  => __( 'Hover', 'radiant' ),
+				'slug'  => 'hoverdefault',
+				'color' => '#ba3e2e',
+			),
+		)
+	);
 }
 add_action( 'after_setup_theme', 'radiant_title_setup' );
 
@@ -409,7 +469,7 @@ function radiant_customize_edit_links( $wp_customize ) {
 	$wp_customize->selective_refresh->add_partial( 'cyberchimps_options[blog_title]', array(
 		'selector' => '.page-title'
 	) );
-	
+
 	$wp_customize->selective_refresh->add_partial( 'cyberchimps_options[footer_show_toggle]', array(
 		'selector' => '#footer-widget-container'
 	) );
@@ -489,3 +549,96 @@ function radiant_admin_notices()
 	}
 
 }
+
+/**
+ * [radiant_enqueue description]
+ *
+ * @return void
+ */
+function radiant_enqueue() {
+	$directory_uri = get_template_directory_uri();
+	wp_enqueue_script( 'jquery-flexslider', $directory_uri . '/inc/js/jquery.flexslider.js', 'jquery', '1.0', true );
+}
+add_action( 'wp_enqueue_scripts', 'radiant_enqueue' );
+
+
+/**
+ *  Enqueue block styles  in editor
+ */
+function radiant_block_styles() {
+
+	wp_enqueue_style( 'radiant-google-font', 'https://fonts.googleapis.com/css?family=Great+Vibes|Noto+Sans|Imprima|Spinnaker|Open+Sans|Titillium+Web', array(), '1.0' );
+
+	$typography_options   = cyberchimps_get_option( 'typography_options' );
+	$font_family_headings = cyberchimps_get_option( 'font_family_headings' );
+
+	$font_family               = $typography_options['face'] ? $typography_options['face'] : 'Georgia, serif';
+	$font_size                 = $typography_options['size'] ? $typography_options['size'] : '14px';
+	$font_weight               = $typography_options['style'] ? $typography_options['style'] : 'Normal';
+	$color                     = cyberchimps_get_option( 'text_colorpicker' ) ? cyberchimps_get_option( 'text_colorpicker' ) : '#666';
+	$link_colorpicker          = cyberchimps_get_option( 'link_colorpicker' ) ? cyberchimps_get_option( 'link_colorpicker' ) : '#f35d3a';
+	$link_hover_colorpicker    = cyberchimps_get_option( 'link_hover_colorpicker' ) ? cyberchimps_get_option( 'link_hover_colorpicker' ) : '#ba3e2e';
+	$radiant_headings_font_family = $font_family_headings['face'] ? $font_family_headings['face'] : 'Great Vibes, cursive';
+
+	?>
+	<style>
+	.wp-block-freeform,
+	.editor-writing-flow,
+	.editor-post-title__block,
+	.editor-styles-wrapper{
+		font-family: <?php echo $font_family; ?>;
+		font-size: <?php echo esc_html( $font_size, 'radiant' ); ?> !important;
+		font-weight: <?php echo esc_html( $font_weight, 'radiant' ); ?>;
+		color: <?php echo esc_html( $color, 'radiant' ); ?>;
+		line-height: 1.5;
+	}
+	.wp-block-freeform.block-library-rich-text__tinymce h1,
+	.wp-block-freeform.block-library-rich-text__tinymce h2,
+	.wp-block-freeform.block-library-rich-text__tinymce h3,
+	.wp-block-freeform.block-library-rich-text__tinymce h4,
+	.wp-block-freeform.block-library-rich-text__tinymce h5,
+	.wp-block-freeform.block-library-rich-text__tinymce h6,
+	.wp-block-heading h1.editor-rich-text__tinymce,
+	.wp-block-heading h2.editor-rich-text__tinymce,
+	.wp-block-heading h3.editor-rich-text__tinymce,
+	.wp-block-heading h4.editor-rich-text__tinymce,
+	.wp-block-heading h5.editor-rich-text__tinymce,
+	.wp-block-heading h6.editor-rich-text__tinymce {
+		font-family: <?php echo $radiant_headings_font_family; ?>;
+		color: #f35d3a;
+		font-weight: 400;
+		margin-bottom: 15px;
+	}
+	.editor-post-title__block .editor-post-title__input{
+		color: #f35d3a !important;
+		font-family: <?php echo $radiant_headings_font_family; ?> !important;
+	}
+
+	.wp-block-freeform.block-library-rich-text__tinymce a,
+	.editor-writing-flow a{
+		color: <?php echo esc_html( $link_colorpicker, 'radiant' ); ?> !important;
+		text-decoration: none;
+	}
+
+	.wp-block-freeform.block-library-rich-text__tinymce a:hover,
+	.wp-block-freeform.block-library-rich-text__tinymce a:focus,
+	.editor-writing-flow a:hover,
+	.editor-writing-flow a:focus{
+		color:  <?php echo esc_html( $link_hover_colorpicker, 'radiant' ); ?>;
+	}
+
+	</style>
+	<?php
+	wp_enqueue_style( 'radiant-gutenberg-blocks', get_stylesheet_directory_uri() . '/inc/css/gutenberg-blocks.css', array(), '1.0' );
+
+}
+add_action( 'enqueue_block_editor_assets', 'radiant_block_styles' );
+
+/**
+ * [radiant_set_defaults description].
+ */
+function radiant_set_defaults() {
+	remove_action( 'testimonial', array( CyberChimpsTestimonial::instance(), 'render_display' ) );
+	add_action( 'testimonial', 'radiant_testimonial_render_display' );
+}
+add_action( 'init', 'radiant_set_defaults' );

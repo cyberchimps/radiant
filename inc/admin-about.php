@@ -56,7 +56,7 @@ function cyberchimps_display_about() {
 
 			?>
 			<span><img src="<?php echo $directory_uri ?>/images/logo.png"></span>
-			<?php printf( '<p>Radiant is a fully Responsive Drag & Drop Starter WordPress Theme that adds amazing new functionality to your WordPress website. Featuring Twitter Bootstrap, and responsive touch friendly theme options that work on any device, this Free WordPress Blogging theme is packed with great customization features.'
+			<?php printf( '<p>Radiant is a Gutenberg Compatible, Fully Responsive, Drag & Drop theme that adds amazing new functionality to your WordPress website. Featuring Twitter Bootstrap, and responsive touch friendly theme options that work on any device, this Free WordPress Blogging theme is packed with great customization features.'
 			); ?>
 		</div>
 

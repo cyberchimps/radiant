@@ -3,9 +3,9 @@ Theme Name: Radiant
 Theme URI: https://cyberchimps.com/radiant/
 Author: CyberChimps
 Author URI: http://cyberchimps.com/
-Description: Radiant is a fully Responsive Drag & Drop Starter WordPress Theme that adds amazing new functionality to your WordPress website. Featuring Twitter Bootstrap, and responsive touch friendly theme options that work on any device. It has visible edit links in the customizer preview. For Support - <a href="https://cyberchimps.com/forum/free/radiant/" target="_blank"> Support forum</a> (https://cyberchimps.com/forum/free/radiant/).
-Version: 1.3
-Tags:  two-columns, right-sidebar, custom-background, custom-colors, custom-menu, featured-images, post-formats, theme-options, sticky-post, blog, custom-logo, theme-options, threaded-comments
+Description: Radiant is a Gutenberg compatible, fully Responsive Drag & Drop theme that adds amazing new functionality to your WordPress website. Featuring Twitter Bootstrap, and responsive touch friendly theme options that work on any device. It has visible edit links in the customizer preview. For Support - <a href="https://cyberchimps.com/forum/free/radiant/" target="_blank"> Support forum</a> (https://cyberchimps.com/forum/free/radiant/).
+Version: 1.4
+Tags:  two-columns, right-sidebar, custom-background, custom-colors, custom-menu, featured-images, post-formats, sticky-post, blog, custom-logo, theme-options, threaded-comments
 Text Domain: radiant
 License: GNU General Public License
 License URI: http://www.opensource.org/licenses/gpl-license.php GPL v3.0 (or later)
@@ -15,7 +15,7 @@ License URI: http://www.opensource.org/licenses/gpl-license.php GPL v3.0 (or lat
 /******************************************** MAIN HTML STYLES ******************************************************/
 /********************************************************************************************************************/
 
-@import url(//fonts.googleapis.com/css?family=Great+Vibes);
+@import url(//fonts.googleapis.com/css?family=Great+Vibes|Noto+Sans|Imprima|Spinnaker|Open+Sans|Titillium+Web);
 
 body {
   background: url(images/branding/bg.png);
@@ -43,23 +43,23 @@ h2.site-title, h2.site-title a {
 }
 
 h2.box-widget-title {
-  font-size: 25px;
+	font-size: 2.25em;
 }
 
 h3, h3 a {
-  font-size: 30px;
+	font-size: 2.143em;
 }
 
 h4, h4 a {
-  font-size: 25px;
+	font-size: 1.79em;
 }
 
 h5, h5 a {
-  font-size: 20px;
+	font-size: 1.43em;
 }
 
 h6, h6 a {
-  font-size: 16px;
+	font-size: 1.143em;
 }
 
 table .label {
@@ -286,17 +286,17 @@ header #search #searchform {
 	header#cc-header .span7 {
 	  text-align: center;
 	}
-	
+
   .nav-collapse .nav > li > a, .nav-collapse .dropdown-menu a {
     color: #eeeeee;
     font-weight: normal;
   }
-  
+
   .nav-collapse .nav > li > a, .nav-collapse .dropdown-menu a:hover {
     color: #ffffff;
     font-weight: normal;
   }
-  
+
   .main-navigation .nav li ul li a:hover {
     color: #ffffff;
   }
@@ -546,7 +546,6 @@ article .featured-image {
 
 .entry-meta {
   margin-top: 0;
-  color: #999999;
   font-size: 0.85em;
 }
 
@@ -896,10 +895,11 @@ table#wp-calendar td {
 }
 
 #gallery h2 {
-  margin-top: 0;
-  font-weight: 400;
-  font-size: 1.6em;
-  line-height: 1em;
+	margin-top: 0;
+	font-weight: 400;
+	font-size: 1.6em;
+	line-height: 1em;
+	text-align: center;
 }
 
 #gallery ul.row-fluid li#portfolio_wrap {
@@ -973,15 +973,341 @@ table#wp-calendar td {
   header#cc-header .span5 #searchform {
     float: none;
   }
-  
+
 	header#cc-header #register {
 		text-align: center;
 	}
-	
+
 	header#cc-header #register  #social, header#cc-header #register  #social a.symbol{
 		float: none;
 	}
 }
 select{
 	width: 100%;
+}
+
+/*============= Testimonial ==========*/
+.radiant_main_title{
+      margin-top: 80px;
+      text-align: center;
+      font-size: 1.8em;
+	  color: #ffffff;
+  }
+  ul.slides {
+      margin-left: 0;
+  }
+  .flexslider .slides > li {
+    display: block;
+    -webkit-backface-visibility: hidden;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+ }
+ 	.slides.radiant_carousel {
+    max-width: 100%;
+    display: inline-block;
+    padding-top: 20px;
+    width: auto !important;
+}
+#testimonial_section .radiant_short_desc {
+      margin-top: 80px;
+}
+#testimonial_section {
+	color: #ffffff;
+	background: rgba(0, 0, 0, 0.6) none repeat scroll 0% 0%;
+}
+#testimonial_section .img-responsive {
+  -webkit-border-radius: 100%;
+     -moz-border-radius: 100%;
+          border-radius: 100%;
+  border: 5px solid #fff; }
+#testimonial_section .flexslider {
+  background: transparent;
+  border: none;
+  width: 100%;
+  margin: 0 auto;
+  left: 0;
+  right: 0; }
+#testimonial_section .radiant_slider_text_img {
+ }
+  #testimonial_section .radiant_slider_text_img li {
+    width: auto;
+    text-align: center;
+}
+ #testimonial_section .radiant_testimonial_author {
+  font-weight: 600;
+  font-size: 1.125em; }
+#testimonial_section .radiant_testimonial_abt_author {
+  font-weight: 500;
+  margin-bottom: 10%; }
+#testimonial_section .after_testimonial_text {
+  margin: 25px auto;
+  padding: 0;
+  max-width: 84px;
+  border: 0;
+  border-top: solid 2px #cd834a;
+  text-align: center;
+  background: transparent; }
+#testimonial_section #carousel2.flexslider {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+#testimonial_section .flex-active-slide img {
+  border-color: #cd834a; }
+#testimonial_section .flex-active-slide .arrow-top {
+  position: absolute;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #e14c3d;
+  border-left: 10px solid transparent;
+  top: 12px;
+  left: 13%; }
+#testimonial_section .flex-viewport {
+  text-align: center; }
+testimonial_section .flexslider .slides {
+  padding-bottom: 30px; }
+ #testimonial_section{
+    position: relative;
+    font-size: 16px;
+}
+.radiant_main_title{
+    margin-top: 80px;
+    text-align: center;
+}
+.flex-direction-nav{
+    display: none;
+}
+	/* =============================== Contact Section  ========================== */
+#contact_us{
+	color: #ffffff;
+}
+
+.contactus_wrapper{
+    padding: 0 0 3% 0;
+	}
+.contactus_wrapper.span12
+{
+	padding: 0 2% 2%;
+	margin: 0 auto;
+}
+
+#contact_us input[type="text"], #contact_us textarea{
+    width: 96%;
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 12px;
+	}
+.contact_left_sec{
+    font-size: 16px;
+    line-height: 1.8;
+}
+.fa
+{
+    font-size: 30px;
+}
+.contact_right_sec input[type="submit"]
+{
+    background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #cd834a 0%, #9e663d 100%) repeat scroll 0 0;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    color: #fff;
+    font-family: lobster,cursive;
+    font-size: 17.5px;
+    border: none;
+    border-radius: 3px;
+    padding: 15px 55px;
+    margin: 2% 32%;
+	}
+.contact_title{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 1.8em;
+	color: #ffffff;
+}
+	@media all and (max-width: 767px) {
+    .contact_left_sec
+    {
+        text-align: center;
+    }
+    .contactus_wrapper.span12
+    {
+        padding: 20px 30px;
+    }
+    .contact_addr {
+    padding-bottom: 10px;
+    }
+    .radiant_testimonial_text{
+    padding: 0 20px;
+    }
+}
+/* ========================== Contact details in header  =========================== */
+.contact_details{
+    font-family: lobster,cursive;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.contact_details:before{
+    font-family: "FontAwesome";
+    content: "\f095";
+}
+
+
+.entry-content ol,
+.entry-content ul,
+.entry-summary ol,
+.entry-summary ul{
+	margin-left: 2.9em;
+}
+
+.entry-content ol.wp-block-gallery,
+.entry-content ul.wp-block-gallery,
+.entry-summary ol.wp-block-gallery,
+.entry-summary ul.wp-block-gallery {
+	display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+	margin-left: 0;
+	margin-right: 0;
+}
+	audio, canvas, video {
+    display: inline-block;
+    width: 100%;
+}
+.wp-block-column p {
+    padding: 0 14px;
+}
+wp-block-gallery .blocks-gallery-item figcaption {
+        padding: 40px 0;
+}
+
+code, pre {
+	font-size: .86em;
+}
+
+h1{
+	font-size: 2.75em;
+	line-height: 1;
+}
+
+h2{
+	font-size: 2.25em;
+	line-height: 1.2;
+}
+
+h3{
+	font-size: 2.143em;
+	line-height: 1.6;
+}
+
+h4{
+	font-size: 1.79em;
+	line-height: 1.14;
+}
+
+h5{
+	font-size: 1.43em;
+	line-height: 1.43;
+}
+
+h6{
+	font-size: 1.143em;
+	line-height: 1.68;
+}
+
+
+div.wp-block-cover .wp-block-cover-text{
+ 	position: absolute;
+    color: #fff;
+    font-size: 2em;
+    line-height: 1.25;
+    margin-bottom: 0;
+    max-width: 610px;
+    padding: 14px;
+    text-align: center;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+div.wp-block-cover.aligncenter {
+	clear: both;
+}
+
+
+.has-light-gray-background-color{
+	background-color: #f5f5f5;
+}
+.has-light-gray-color{
+	color: #f5f5f5;
+}
+
+.has-gray-background-color{
+	background-color: #777;
+}
+.has-gray-color{
+	color: #777;
+}
+
+.has-black-background-color{
+	background-color: #000000;
+}
+.has-black-color{
+	color: #000000;
+}
+
+.has-blue-background-color{
+	background-color: #0286cf;
+}
+.has-blue-color{
+	color: #0286cf;
+}
+
+.has-legacy-background-color{
+	background-color: #b6b6b6;
+}
+.has-legacy-color{
+	color: #b6b6b6;
+}
+
+.has-red-background-color{
+	background-color: #c80a00;
+}
+.has-red-color{
+	color: #c80a00;
+}
+
+.has-textdefault-background-color{
+	background-color: #666;
+}
+.has-textdefault-color{
+	color: #666;
+}
+
+.has-linkdefault-background-color{
+	background-color: #f35d3a;
+}
+.has-linkdefault-color{
+	color: #f35d3a;
+}
+
+.has-hoverdefault-background-color{
+	background-color: #ba3e2e;
+}
+.has-hoverdefault-color{
+	color: #ba3e2e;
+}
+.wp-block-image.is-resized {
+    padding: 2%;
+}
+#wrapper .container-full-width:first-child{
+	margin-top: 0;
+}
+.wp-block-gallery .blocks-gallery-item figcaption{
+	padding: 40px 0px 5px;
+}
+.wp-block-pullquote.alignleft p,
+.wp-block-pullquote.alignright p {
+    font-size: 1.5em;
 }

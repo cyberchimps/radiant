@@ -1,6 +1,10 @@
 Radiant Changelog
 
 ****************************
+Version 1.4 (12-03-18)
+- Added Gutenberg compatibility
+- Added testimonial and contact us elements
+
 Version 1.3 (07-20-17)
 - Added visible edit links in the customizer preview
 
@@ -99,7 +103,7 @@ Version 1.0.0.11 (5-9-14)
 - Added FooBox as recommended plugin.
 
 Version 1.0.0.10 (5-2-14)
-- Fixed byline toggle issue. 
+- Fixed byline toggle issue.
 
 Version 1.0.0.9 (4-24-14)
 - Added recommendation for clef plugin.
