@@ -348,7 +348,7 @@ figcaption.editor-rich-text__tinymce.mce-content-body {
 .wp-block-freeform.block-library-rich-text__tinymce code,
 .wp-block-freeform.block-library-rich-text__tinymce kbd{
 	padding: 2px 4px;
-	color: #dd1144;
+	color: #f35d3a;
 	font-size: .86em;
     border: 1px solid #ccccc
 }
